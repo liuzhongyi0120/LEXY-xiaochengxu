@@ -1,0 +1,98 @@
+{
+ "identity": {
+  "miniprogramAppId": "wx6bc687ff89875e20",
+  "storeKdtId": 45818390,
+  "shopName": "LEXY莱克官方旗舰店",
+  "hqKdtId": 44375018,
+  "parentKdtId": 44375018,
+  "rootKdtId": 44375018,
+  "h5HostShopId": 46010558,
+  "chainOnlineShopMode": 2,
+  "shopRole": 2,
+  "shopType": 7,
+  "saasSolution": 2,
+  "onlineShopOpen": true,
+  "offlineShopOpen": false,
+  "themeType": 3,
+  "shopStyleType": "market"
+ },
+ "themeColors": {
+  "general": "#FF4444",
+  "main-bg": "#FF4444",
+  "main-bg-gradient": "#FF4444",
+  "main-text": "#ffffff",
+  "vice-bg": "#555555",
+  "vice-text": "#ffffff",
+  "icon": "#FC0000",
+  "price": "#FC0000",
+  "tag-text": "#CF0000",
+  "tag-bg": "#FFF2F2",
+  "start-bg": "#FF8544",
+  "end-bg": "#FF2E2E",
+  "ump-main-bg": "#FF4444",
+  "ump-main-text": "#ffffff",
+  "ump-vice-bg": "#555555",
+  "ump-vice-text": "#ffffff",
+  "ump-icon": "#FC0000",
+  "ump-price": "#FC0000",
+  "ump-tag-text": "#CF0000",
+  "ump-tag-bg": "#FFF2F2",
+  "ump-coupon-bg": "#FFF2F2",
+  "ump-border": "#FFCCCC",
+  "ump-start-bg": "#FF8544",
+  "ump-end-bg": "#FF2E2E",
+  "brand-wechat": "#1AAD19",
+  "brand-alipay": "#027AFF",
+  "brand-youzandanbao": "#07C160",
+  "brand-xiaohongshu": "#FF2442",
+  "brand-baidu": "#2A32E1",
+  "brand-youzandanbao-bg": "#E5F7EE",
+  "notice": "#ED6A0C",
+  "notice-bg": "#FFFBE8",
+  "link": "#576B95",
+  "score": "#FF5200",
+  "error": "#EE0A24",
+  "error-bg": "#FDE6E9",
+  "success": "#07C160",
+  "success-bg": "#E6F8EF",
+  "warn": "#EE0A24",
+  "highlight": "#EE0A24",
+  "neutral-white": "#ffffff",
+  "neutral-black": "#000000",
+  "neutral-text-main": "#323233",
+  "neutral-text-prompt": "#969799",
+  "neutral-text-disable": "#c8c9cc",
+  "neutral-line-main": "#dcdee0",
+  "neutral-line-vice": "#ebedf0",
+  "neutral-bg-main": "#f2f3f5",
+  "neutral-bg-vice": "#f7f8fa"
+ },
+ "h5FooterNav": [
+  {
+   "title": "店铺主页",
+   "link": "https://h5.youzan.com/wscshop/showcase/homepage?kdt_id=45818390",
+   "type": "HOME"
+  },
+  {
+   "title": "个人中心",
+   "link": "https://shop46010558.youzan.com/wscuser/membercenter?kdt_id=45818390",
+   "type": "USER"
+  },
+  {
+   "title": "线下门店",
+   "link": "https://shop46010558.youzan.com/wscshopcore/physical_store?kdt_id=45818390",
+   "type": "OFFLINE_SHOP"
+  },
+  {
+   "title": "店铺信息",
+   "link": "https://shop46010558.youzan.com/wscassets/shopinfo?kdt_id=45818390",
+   "type": "SHOP_INFO"
+  }
+ ],
+ "floatingNav": {
+  "floatingMode": 2,
+  "foldedIconUrl": "https://img01.yzcdn.cn/upload_files/2025/08/28/FnUgH5Vlu7zTU1xMDBXea1c9NqSm.png",
+  "unfoldedIconUrl": "https://img01.yzcdn.cn/upload_files/2025/08/28/Fn-t8JU61qrSyHOAj0JrAadKysgj.png"
+ },
+ "entryPath": "pages/home/dashboard/index?shopAutoEnter=1&kdt_id=45818390"
+}

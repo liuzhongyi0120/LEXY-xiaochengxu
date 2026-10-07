@@ -1,0 +1,156 @@
+[
+  {
+    "pkg": "__APP__",
+    "files": 461,
+    "components": 86,
+    "images": 6,
+    "titled_pages": []
+  },
+  {
+    "pkg": "_packages_async-core_",
+    "files": 13,
+    "components": 2,
+    "images": 0,
+    "titled_pages": []
+  },
+  {
+    "pkg": "_packages_async-feature-ext_",
+    "files": 268,
+    "components": 114,
+    "images": 0,
+    "titled_pages": []
+  },
+  {
+    "pkg": "_packages_async-main_",
+    "files": 442,
+    "components": 186,
+    "images": 0,
+    "titled_pages": []
+  },
+  {
+    "pkg": "_packages_async-minor_",
+    "files": 268,
+    "components": 176,
+    "images": 0,
+    "titled_pages": []
+  },
+  {
+    "pkg": "_packages_async-retail_",
+    "files": 24,
+    "components": 10,
+    "images": 0,
+    "titled_pages": []
+  },
+  {
+    "pkg": "_packages_async-tee_",
+    "files": 252,
+    "components": 32,
+    "images": 0,
+    "titled_pages": []
+  },
+  {
+    "pkg": "_packages_async-usecenter_",
+    "files": 38,
+    "components": 18,
+    "images": 0,
+    "titled_pages": []
+  },
+  {
+    "pkg": "_packages_async-video_",
+    "files": 24,
+    "components": 8,
+    "images": 0,
+    "titled_pages": []
+  },
+  {
+    "pkg": "_packages_goods-core_",
+    "files": 400,
+    "components": 274,
+    "images": 0,
+    "titled_pages": []
+  },
+  {
+    "pkg": "_packages_goods-main_",
+    "files": 166,
+    "components": 40,
+    "images": 0,
+    "titled_pages": []
+  },
+  {
+    "pkg": "_packages_goods-minor_",
+    "files": 564,
+    "components": 164,
+    "images": 0,
+    "titled_pages": []
+  },
+  {
+    "pkg": "_packages_goods_",
+    "files": 94,
+    "components": 22,
+    "images": 0,
+    "titled_pages": []
+  },
+  {
+    "pkg": "_packages_home_",
+    "files": 23,
+    "components": 0,
+    "images": 0,
+    "titled_pages": []
+  },
+  {
+    "pkg": "_packages_pointstore_",
+    "files": 17,
+    "components": 4,
+    "images": 0,
+    "titled_pages": []
+  },
+  {
+    "pkg": "_packages_retail-shelf_",
+    "files": 254,
+    "components": 78,
+    "images": 0,
+    "titled_pages": []
+  },
+  {
+    "pkg": "_packages_shop-select_",
+    "files": 43,
+    "components": 14,
+    "images": 0,
+    "titled_pages": []
+  },
+  {
+    "pkg": "_packages_third-yun_",
+    "files": 108,
+    "components": 0,
+    "images": 0,
+    "titled_pages": []
+  },
+  {
+    "pkg": "_packages_trade-buy_",
+    "files": 300,
+    "components": 44,
+    "images": 0,
+    "titled_pages": []
+  },
+  {
+    "pkg": "_packages_user_",
+    "files": 48,
+    "components": 4,
+    "images": 0,
+    "titled_pages": []
+  },
+  {
+    "pkg": "_packages_usercenter_",
+    "files": 83,
+    "components": 16,
+    "images": 0,
+    "titled_pages": []
+  },
+  {
+    "pkg": "_pages_common_blank-page_",
+    "files": 9,
+    "components": 0,
+    "images": 0,
+    "titled_pages": []
+  }
+]

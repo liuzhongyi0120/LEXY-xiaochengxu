@@ -1,0 +1,2492 @@
+{
+ "code": 0,
+ "msg": "ok",
+ "data": {
+  "rontgen": {
+   "actionId": "wsc-h5-shop-0ae87373-1791337451891-304779"
+  },
+  "buyer_id": 0,
+  "user": {
+   "has_login": false,
+   "has_bind": false
+  },
+  "yz_user": {
+   "nickname": "",
+   "mobile": "",
+   "avatar": "",
+   "verify_weixin_openid": ""
+  },
+  "authorized": {
+   "protocol": false,
+   "mobile": false,
+   "nicknameAndAvatar": false
+  },
+  "shopAbilityInfo": {
+   "store_note_ability": {
+    "abilityCode": "store_note_ability",
+    "abilityStatus": 1,
+    "kdtId": 45818390,
+    "rightPackage": {
+     "currentRightUnit": {
+      "duration": {
+       "beginDate": 1753366616000,
+       "endDate": 1822873451000
+      },
+      "metrics": {},
+      "metricsV2": {},
+      "rightName": "store_note_ability"
+     },
+     "maxEffectedEndTime": 1822873451000,
+     "rightUnits": [
+      {
+       "duration": {
+        "beginDate": 1689678602000,
+        "endDate": 1753366608000
+       },
+       "metrics": {},
+       "metricsV2": {},
+       "rightName": "store_note_ability"
+      },
+      {
+       "duration": {
+        "beginDate": 1753366616000,
+        "endDate": 1822873451000
+       },
+       "metrics": {},
+       "metricsV2": {},
+       "rightName": "store_note_ability"
+      }
+     ]
+    },
+    "valid": true,
+    "validDetail": {
+     "beginTime": 1753366616000,
+     "endTime": 1822873451000,
+     "limitType": "time",
+     "source": 1
+    }
+   },
+   "short_video_ability": {
+    "abilityCode": "short_video_ability",
+    "abilityStatus": 1,
+    "kdtId": 45818390,
+    "rightPackage": {
+     "currentRightUnit": {
+      "duration": {
+       "beginDate": 1753366616000,
+       "endDate": 1822873451000
+      },
+      "metrics": {},
+      "metricsV2": {},
+      "rightName": "short_video_ability"
+     },
+     "maxEffectedEndTime": 1822873451000,
+     "rightUnits": [
+      {
+       "duration": {
+        "beginDate": 1689678602000,
+        "endDate": 1753366608000
+       },
+       "metrics": {},
+       "metricsV2": {},
+       "rightName": "short_video_ability"
+      },
+      {
+       "duration": {
+        "beginDate": 1753366616000,
+        "endDate": 1822873451000
+       },
+       "metrics": {},
+       "metricsV2": {},
+       "rightName": "short_video_ability"
+      }
+     ]
+    },
+    "valid": true,
+    "validDetail": {
+     "beginTime": 1753366616000,
+     "endTime": 1822873451000,
+     "limitType": "time",
+     "source": 1
+    }
+   },
+   "official_article_ability": {
+    "abilityCode": "official_article_ability",
+    "abilityStatus": 1,
+    "kdtId": 45818390,
+    "rightPackage": {
+     "currentRightUnit": {
+      "duration": {
+       "beginDate": 1753366616000,
+       "endDate": 1822873451000
+      },
+      "metrics": {},
+      "metricsV2": {},
+      "rightName": "official_article_ability"
+     },
+     "maxEffectedEndTime": 1822873451000,
+     "rightUnits": [
+      {
+       "duration": {
+        "beginDate": 1689678602000,
+        "endDate": 1753366608000
+       },
+       "metrics": {},
+       "metricsV2": {},
+       "rightName": "official_article_ability"
+      },
+      {
+       "duration": {
+        "beginDate": 1753366616000,
+        "endDate": 1822873451000
+       },
+       "metrics": {},
+       "metricsV2": {},
+       "rightName": "official_article_ability"
+      }
+     ]
+    },
+    "valid": true,
+    "validDetail": {
+     "beginTime": 1753366616000,
+     "endTime": 1822873451000,
+     "limitType": "time",
+     "source": 1
+    }
+   },
+   "buyer_show_ability": {
+    "abilityCode": "buyer_show_ability",
+    "abilityStatus": 1,
+    "kdtId": 45818390,
+    "rightPackage": {
+     "currentRightUnit": {
+      "duration": {
+       "beginDate": 1753366616000,
+       "endDate": 1822873451000
+      },
+      "metrics": {},
+      "metricsV2": {},
+      "rightName": "buyer_show_ability"
+     },
+     "maxEffectedEndTime": 1822873451000,
+     "rightUnits": [
+      {
+       "duration": {
+        "beginDate": 1689678602000,
+        "endDate": 1753366608000
+       },
+       "metrics": {},
+       "metricsV2": {},
+       "rightName": "buyer_show_ability"
+      },
+      {
+       "duration": {
+        "beginDate": 1753366616000,
+        "endDate": 1822873451000
+       },
+       "metrics": {},
+       "metricsV2": {},
+       "rightName": "buyer_show_ability"
+      }
+     ]
+    },
+    "valid": true,
+    "validDetail": {
+     "beginTime": 1753366616000,
+     "endTime": 1822873451000,
+     "limitType": "time",
+     "source": 1
+    }
+   },
+   "half_screen_ability": {
+    "abilityCode": "half_screen_ability",
+    "abilityStatus": 3,
+    "invalidCode": "SHOP_PROD_RELATION_NOT_EXIST",
+    "invalidReason": "店铺无相关产品",
+    "kdtId": 45818390,
+    "rightPackage": {
+     "currentRightUnit": null,
+     "maxEffectedEndTime": null,
+     "rightUnits": []
+    },
+    "valid": false
+   },
+   "wsc_before_2023_ability": {
+    "abilityCode": "wsc_before_2023_ability",
+    "abilityStatus": 3,
+    "invalidCode": "SHOP_PROD_RELATION_NOT_EXIST",
+    "invalidReason": "店铺无相关产品",
+    "kdtId": 45818390,
+    "rightPackage": {
+     "currentRightUnit": null,
+     "maxEffectedEndTime": null,
+     "rightUnits": []
+    },
+    "valid": false
+   }
+  },
+  "trafficIdentification": {
+   "whitelist": [
+    "zz_sid",
+    "pageType",
+    "zz_channel",
+    "tui_click",
+    "tui_platform",
+    "mpVersion",
+    "bizEnv",
+    "edu",
+    "eduOrigin",
+    "wecom_uuid"
+   ],
+   "blacklist": []
+  },
+  "url": {
+   "base": "https://www.youzan.com",
+   "bbs": "https://bbs.youzan.com",
+   "cdn": "https://b.yzcdn.cn/",
+   "wap": "https://h5.youzan.com/v2",
+   "imgqn": "https://img.yzcdn.cn",
+   "uic": "https://uic.youzan.com",
+   "trade": "https://trade.koudaitong.com",
+   "trade_youzan": "https://trade.youzan.com",
+   "im": "https://b-im.youzan.com",
+   "www": "https://www.youzan.com/v2",
+   "store": "https://store.youzan.com",
+   "shop": "http://detail.youzan.com",
+   "h5": "https://h5.youzan.com",
+   "passport": "https://passport.youzan.com",
+   "fast": ".m.youzan.com"
+  },
+  "nodeEnv": "prod",
+  "_replaceHostConfig": {},
+  "miniprogram": {
+   "isMiniProgram": false,
+   "isWeapp": false,
+   "isSwanApp": false,
+   "isTTApp": false,
+   "isAliApp": false,
+   "isAlipayApp": false,
+   "isQQApp": false,
+   "isXhsApp": false,
+   "isKsApp": false
+  },
+  "north_america_shop_config": {
+   "is_north_america_shop": false,
+   "redirect_url": ""
+  },
+  "rmb_usd_shop_config": {
+   "is_rmb_usd_shop": ""
+  },
+  "platform": "unknown",
+  "constants": {
+   "common": {
+    "tjUrl": "https://tj1.youzanyun.com/v3/js/log"
+   }
+  },
+  "staticPageUrlMiddle": ".m",
+  "staticPageReg": [
+   "/wscgoods/detail/",
+   "/v3/shop/mass-flow-waiting",
+   "/(v2|wscshop)/showcase/feature[?]",
+   "/(v2|wscshop)/showcase/homepage[?]",
+   "/(v2|wscshop)/home/",
+   "/(v2|wscshop)/feature/",
+   "/v2/home[?]",
+   "/wscshop/showcase/feature/search",
+   "/wscshop/feature/goods/all",
+   "/(v2|wscshop)/showcase/tag[?]",
+   "/(v2|wscshop)/tag/"
+  ],
+  "staticApiPath": [
+   "/wscgoods/tee-app/detail-v2-static.json",
+   "/wscshop/weapp/launch.json",
+   "/wscshop/showcase/intelligentSortGoodsList.json",
+   "/wscdeco/tee/goods.json",
+   "/wscdeco/tee/goodsByTagAlias.json",
+   "/wscdeco/shop/get-shop-meta-info-by-kdtId.json",
+   "/wscshop/showcase/goodsList.json",
+   "/wscshop/shop/shop_wide_style.json",
+   "/wscdeco/brand-feature-detail.json",
+   "/wscshop/showcase/share/useWxImageShare.json",
+   "/wscshop/query-shop-config.json",
+   "/wscshopcore/extension/shop-info.json",
+   "/wsctrade/uic/address/getAllRegion.json",
+   "/wscshop/showcase/floating_nav.json",
+   "/wscdeco/showcase-api/floating_nav.json",
+   "/wscshop/goods-api/showcase-components.json",
+   "/wscshop/showcase/shopnav/nav_v2.json",
+   "/wscgoods/getSharedComponentsJson.json",
+   "/wscump/targeted-marketing/visit-gift/coupon.json",
+   "/wscgoods/detail-api/review-info.json",
+   "/wscgoods/detail-api/review-info-fast.json",
+   "/wscgoods/getTransactionRecords.json",
+   "/wscgoods/getItemMarqueeRecords.json",
+   "/wscgoods/detail-api/showcase-components.json",
+   "/wscump/common/components.json",
+   "/wscgoods/buyer-show-info.json",
+   "/wscump/coupon/perfect/get-detail.json",
+   "/wscshop/video/playinfo.json",
+   "/wscump/visit-gift/coupon.json",
+   "/v3/url/generator.js",
+   "/wscump/visit-gift/pop-up.json",
+   "/wscuser/common/components.json",
+   "/wscstatcenter/common/dynamic-components/getResource.json",
+   "/wscstatcenter/common/dynamic-components/getResourceBatch.json",
+   "/wscstatcenter/recommend/float-goods.json",
+   "/assetsdynamic/api/components/gray",
+   "/assetsdynamic/api/components/gray?name=guarantee-detail-bar-0",
+   "/fe-phoenix/app-router-map.json",
+   "/fe-phoenix/router-path.json",
+   "/wscgoods/detail-api/coupon-list.json",
+   "/wscgoods/detail-api/item-danmaku-list.json",
+   "/wscassets/api/security/guarantee/fetchSecuredForItem",
+   "/wscassets/api/security/guarantee/fetchSecuredForItem2",
+   "/wscassets/api/security/guarantee/queryFinComponentsConfirmSupport",
+   "/wscassets/api/security/guarantee/docs",
+   "/v3/domain-manager/get-domain.json",
+   "/wsc-h5-trade/ranta/config.js",
+   "/wsc-h5-goods/ranta/config.js",
+   "/wsc-h5-trade/ranta/configjs",
+   "/wsc-h5-goods/ranta/configjs",
+   "/wscgoods/detail-api/item/sold-stock-info.json",
+   "/wscgoods/tee-app/item/multi-danmaku-list.json",
+   "/wscgoods/tee-app/item/least-top-review-list.json",
+   "/wsc-h5-assets/ranta/configjs",
+   "/wscshopcore/get-enter-apollo/configs.json",
+   "/wscshop/shopad/pop-config-with-keys.json",
+   "/wscshop/common/components.json",
+   "/wscdeco/decorate/search-page/hot-words.json",
+   "/wscdeco/biz-component/list.json",
+   "/wscgoods/tee-app/detail.json",
+   "/v3/im/api/setting/contact-mode",
+   "/wscsalesman/salesman/shop/checkShopAbility.json",
+   "/wscgoods/tee-app/port-list.json",
+   "/wscump/member-config.json",
+   "/wsctrade/apollo-gray.json",
+   "/wscshop/weapp/throttling/v1/config.json",
+   "/wscshop/weapp/throttling/v1/limit/rate.json",
+   "/wscshop/weapp/throttling/v1/limit-page/config.json",
+   "/wscgoods/combine-api/getTradeCarouselData.json",
+   "/pay/wsctrade/order/buy/scene/check-compatible"
+  ],
+  "themeType": 3,
+  "themeColors": {
+   "general": "#FF4444",
+   "main-bg": "#FF4444",
+   "main-bg-gradient": "#FF4444",
+   "main-text": "#ffffff",
+   "vice-bg": "#555555",
+   "vice-text": "#ffffff",
+   "icon": "#FC0000",
+   "price": "#FC0000",
+   "tag-text": "#CF0000",
+   "tag-bg": "#FFF2F2",
+   "start-bg": "#FF8544",
+   "end-bg": "#FF2E2E",
+   "ump-main-bg": "#FF4444",
+   "ump-main-text": "#ffffff",
+   "ump-vice-bg": "#555555",
+   "ump-vice-text": "#ffffff",
+   "ump-icon": "#FC0000",
+   "ump-price": "#FC0000",
+   "ump-tag-text": "#CF0000",
+   "ump-tag-bg": "#FFF2F2",
+   "ump-coupon-bg": "#FFF2F2",
+   "ump-border": "#FFCCCC",
+   "ump-start-bg": "#FF8544",
+   "ump-end-bg": "#FF2E2E",
+   "brand-wechat": "#1AAD19",
+   "brand-alipay": "#027AFF",
+   "brand-youzandanbao": "#07C160",
+   "brand-xiaohongshu": "#FF2442",
+   "brand-baidu": "#2A32E1",
+   "brand-youzandanbao-bg": "#E5F7EE",
+   "notice": "#ED6A0C",
+   "notice-bg": "#FFFBE8",
+   "link": "#576B95",
+   "score": "#FF5200",
+   "error": "#EE0A24",
+   "error-bg": "#FDE6E9",
+   "success": "#07C160",
+   "success-bg": "#E6F8EF",
+   "warn": "#EE0A24",
+   "highlight": "#EE0A24",
+   "neutral-white": "#ffffff",
+   "neutral-black": "#000000",
+   "neutral-text-main": "#323233",
+   "neutral-text-prompt": "#969799",
+   "neutral-text-disable": "#c8c9cc",
+   "neutral-line-main": "#dcdee0",
+   "neutral-line-vice": "#ebedf0",
+   "neutral-bg-main": "#f2f3f5",
+   "neutral-bg-vice": "#f7f8fa"
+  },
+  "platform_info": {
+   "platform": "unknown",
+   "platform_version": "",
+   "mobile_system": "unknown",
+   "platform_config": {},
+   "authorize": "unknown",
+   "is_mobile": false
+  },
+  "platformInfo": {
+   "platform": "unknown",
+   "platform_version": "",
+   "mobile_system": "unknown",
+   "platformConfig": {},
+   "authorize": "unknown",
+   "is_mobile": false
+  },
+  "user_id": 0,
+  "buyer": {},
+  "user_open_id": "",
+  "need_ajax_login": false,
+  "passportTeeRantaInfo": {
+   "platform": {
+    "hostApp": "unknown",
+    "authType": "unknown",
+    "pageType": "h5",
+    "isMobile": false,
+    "platform": "unknown",
+    "bizEnv": "",
+    "isAppSdk": false
+   },
+   "userInfo": {},
+   "needPlatformAclDone": false
+  },
+  "hq_kdt_id": 44375018,
+  "shopMetaInfo": {
+   "chainOnlineShopMode": 2,
+   "joinType": 1,
+   "kdtId": 45818390,
+   "lockStatus": 0,
+   "offlineShopOpen": false,
+   "onlineShopOpen": true,
+   "parentKdtId": 44375018,
+   "rootKdtId": 44375018,
+   "saasSolution": 2,
+   "shopName": "LEXY莱克官方旗舰店",
+   "shopRole": 2,
+   "shopTopic": 0,
+   "shopType": 7,
+   "subSolution": 2
+  },
+  "isAccessEnterShop": true,
+  "offlineData": {
+   "show": false,
+   "showUserLocation": false,
+   "enterScene": "0",
+   "url": "https://shop46010558.youzan.com/wscump/multistore/store?kdt_id=45818390&kdtId=45818390&hqKdtId=44375018&isBranchChainStore=1&isShopClose=NaN&asyncFooter=1&callback=initGlobal&hq_kdt_id=44375018&redirect_url=https%3A%2F%2Fh5.youzan.com%2Fwscshop%2Fshowcase-api%2Fhomepage.jsonp%3Fkdt_id%3D45818390%26kdtId%3D45818390%26hqKdtId%3D44375018%26isBranchChainStore%3D1%26isShopClose%3DNaN%26asyncFooter%3D1%26refHost%3Dshop46010558.m.youzan.com%26refUrl%3D%26callback%3DinitGlobal&readLs=1",
+   "name": "LEXY莱克官方旗舰店"
+  },
+  "without_acl_in_third_template": false,
+  "is_in_no_acl_in_H5": false,
+  "open_app_config": {
+   "authorize_account": false,
+   "bind_yz_account": false,
+   "custom_login_page": false,
+   "goods_detail_no_login": false,
+   "hide_copyright": false,
+   "hide_foot_nav": false,
+   "hide_pay_success_order": false,
+   "hide_pay_success_page": false,
+   "hide_pay_success_web_chat": false,
+   "hide_public_number": false,
+   "hide_share_order": false,
+   "hide_shop_link": false,
+   "hide_shop_nav": false,
+   "hide_stroll": false,
+   "hide_wap_im_nav_bar": false,
+   "hide_yz_support": false,
+   "login_without_pwd": false,
+   "trade_authorize_account": false,
+   "use_native_address": false
+  },
+  "footerData": {
+   "nav": [
+    {
+     "title": "店铺主页",
+     "link": "https://h5.youzan.com/wscshop/showcase/homepage?kdt_id=45818390",
+     "type": "HOME"
+    },
+    {
+     "title": "个人中心",
+     "link": "https://shop46010558.youzan.com/wscuser/membercenter?kdt_id=45818390",
+     "type": "USER"
+    },
+    {
+     "title": "线下门店",
+     "link": "https://shop46010558.youzan.com/wscshopcore/physical_store?kdt_id=45818390",
+     "type": "OFFLINE_SHOP"
+    },
+    {
+     "title": "店铺信息",
+     "link": "https://shop46010558.youzan.com/wscassets/shopinfo?kdt_id=45818390",
+     "type": "SHOP_INFO"
+    }
+   ],
+   "logoUrl": "https://img.yzcdn.cn/upload_files/2023/06/01/FvYztM2zn8opWWLFdyaHRQ-X2J_u.png",
+   "logoLink": "https://www.youzan.com/intro/supportlogo?kdtId=45818390",
+   "text": "有赞门店提供技术支持",
+   "hidePoweredBy": true,
+   "hideCopyright": false,
+   "showCustomerTips": false,
+   "customLogoStyle": "background-image: url(\"https://img.yzcdn.cn/upload_files/2023/06/01/FvYztM2zn8opWWLFdyaHRQ-X2J_u.png\");",
+   "poweredByClass": "yz-logo",
+   "hideFooter": true,
+   "hideQuickEntry": false
+  },
+  "salesmanCubeParams": {
+   "scenes": "feature"
+  },
+  "isSalesman": false,
+  "dmcData": {
+   "config": {
+    "domains": [
+     {
+      "domain": "h5.youzan.com",
+      "scene": "",
+      "sceneGroup": "",
+      "standbyList": [
+       "h5.youzan.com"
+      ],
+      "defaultDomain": "h5.youzan.com"
+     },
+     {
+      "domain": "cashier.youzan.com",
+      "scene": "cashier",
+      "sceneGroup": "request",
+      "standbyList": [
+       "cashier.youzan.com"
+      ],
+      "defaultDomain": "cashier.youzan.com"
+     },
+     {
+      "domain": "tuicashier.youzan.com",
+      "scene": "tuicashier",
+      "sceneGroup": "",
+      "standbyList": [
+       "tuicashier.youzan.com"
+      ],
+      "defaultDomain": "tuicashier.youzan.com"
+     },
+     {
+      "domain": "help.youzan.com",
+      "scene": "help",
+      "sceneGroup": "webview",
+      "standbyList": [
+       "help.youzan.com"
+      ],
+      "defaultDomain": "help.youzan.com"
+     }
+    ],
+    "routes": {
+     "GoodsEvaluationDetail": {
+      "route": "GoodsEvaluationDetail",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscgoodsdesc/goods-evaluation/detail",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "GoodsDetail": {
+      "route": "GoodsDetail",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscgoods/detail/:alias",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "HotelGoods": {
+      "route": "HotelGoods",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscindustry/hotel/goods",
+        "protocol": "",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "ConfirmOrder": {
+      "route": "ConfirmOrder",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/pay/wsctrade_buy",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "cashier",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "Seckill": {
+      "route": "Seckill",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscgoods/detail/:alias",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "AllGoodsList": {
+      "route": "AllGoodsList",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscshop/feature/goods/all",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "GoodsTag": {
+      "route": "GoodsTag",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscshop/tag/:alias",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "GoodsRecommendList": {
+      "route": "GoodsRecommendList",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscgoods/top-recommend",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "GoodsEvaluationList": {
+      "route": "GoodsEvaluationList",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscgoodsdesc/goods-evaluation/list",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "EduWebview": {
+      "route": "EduWebview",
+      "targetList": [
+       {
+        "conditionList": [
+         {
+          "conditionKey": "bizEnv",
+          "value": {
+           "in": [
+            "wsc",
+            "retail"
+           ]
+          }
+         }
+        ],
+        "isDefault": 1,
+        "path": "/packages/edu/webview/index",
+        "protocol": "miniApp",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "EduGoodsList": {
+      "route": "EduGoodsList",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscvis/edu/goods-list",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "GoodsShowcaseRanking": {
+      "route": "GoodsShowcaseRanking",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscstatcenter/recommend-showcase-page/ranking",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "ShopInfo": {
+      "route": "ShopInfo",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscassets/shopinfo",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "PhysicalStore": {
+      "route": "PhysicalStore",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscshopcore/physical_store",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "PeriodBuyList": {
+      "route": "PeriodBuyList",
+      "targetList": [
+       {
+        "conditionList": [
+         {
+          "conditionKey": "bizEnv",
+          "value": {
+           "in": [
+            "wsc",
+            "retail"
+           ]
+          }
+         }
+        ],
+        "isDefault": 1,
+        "path": "/packages/ump/periodbuy-list/index",
+        "protocol": "miniApp",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "LuckyLottery": {
+      "route": "LuckyLottery",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscump/lottery/scene",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "Checkin": {
+      "route": "Checkin",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscump/checkin/result",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "PaidContentList": {
+      "route": "PaidContentList",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscvis/knowledge/index",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "PaidContentColumn": {
+      "route": "PaidContentColumn",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscvis/knowledge/index",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "PointGoodsList": {
+      "route": "PointGoodsList",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscump/pointstore/pointcenter",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "CouponDetail": {
+      "route": "CouponDetail",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscump/coupon/detail",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "GoodsGroup": {
+      "route": "GoodsGroup",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscump/coupon/goodslist",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "MarketingPage": {
+      "route": "MarketingPage",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscdeco/decorate/marketing-page",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "MpArticle": {
+      "route": "MpArticle",
+      "targetList": [
+       {
+        "conditionList": [
+         {
+          "conditionKey": "bizEnv",
+          "value": {
+           "in": [
+            "wsc",
+            "retail"
+           ]
+          }
+         }
+        ],
+        "isDefault": 1,
+        "path": "/packages/shop/shopnote/mparticle/detail/index",
+        "protocol": "miniApp",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "Shopnote": {
+      "route": "Shopnote",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscshop/shopnote/list",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "Usercenter": {
+      "route": "Usercenter",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscuser/membercenter",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "BuyersShowList": {
+      "route": "BuyersShowList",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscshop/buyers/show/list/:alias",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "Home": {
+      "route": "Home",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscshop/showcase/homepage",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "ShopnoteDetail": {
+      "route": "ShopnoteDetail",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscshop/shopnote/detail",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "Feature": {
+      "route": "Feature",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscshop/showcase/feature",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "Cart": {
+      "route": "Cart",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wsctrade/cart",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "PayMemberRegister": {
+      "route": "PayMemberRegister",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/pay/wscuser_paylevel",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "cashier",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "UserMemberCard": {
+      "route": "UserMemberCard",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscuser/scrm/benefitcard",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "FreeMemberRegister": {
+      "route": "FreeMemberRegister",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscuser/levelcenter/fill",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "PhysicalStoreIndex": {
+      "route": "PhysicalStoreIndex",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscump/physicalstore/index",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "MultistoreIndex": {
+      "route": "MultistoreIndex",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscump/multistore/index",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "GoodsFast": {
+      "route": "GoodsFast",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/v2/showcase/goodsfast",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "CommonWebview": {
+      "route": "CommonWebview",
+      "targetList": [
+       {
+        "conditionList": [
+         {
+          "conditionKey": "bizEnv",
+          "value": {
+           "in": [
+            "wsc",
+            "retail"
+           ]
+          }
+         }
+        ],
+        "isDefault": 1,
+        "path": "/pages/common/webview-page/index",
+        "protocol": "miniApp",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "ShareEncourage": {
+      "route": "ShareEncourage",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscindustry/share-encourage/activity-detail",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "GoodsShowcaseFootmark": {
+      "route": "GoodsShowcaseFootmark",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscstatcenter/recommend-showcase-page/footmark",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "GoodsShowcaseRecommend": {
+      "route": "GoodsShowcaseRecommend",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscstatcenter/recommend-showcase-page/recommend",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "BargainPurchase": {
+      "route": "BargainPurchase",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscump/bargain_purchase",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "ProductLaunch": {
+      "route": "ProductLaunch",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscindustry/product-launch/:activityId",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "GiftWeapp": {
+      "route": "GiftWeapp",
+      "targetList": [
+       {
+        "conditionList": [
+         {
+          "conditionKey": "bizEnv",
+          "value": {
+           "in": [
+            "wsc",
+            "retail"
+           ]
+          }
+         }
+        ],
+        "isDefault": 1,
+        "path": "/wsctrade/gift/cart",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "GrouponGuide": {
+      "route": "GrouponGuide",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscump/groupon/guide",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "GrouponGoing": {
+      "route": "GrouponGoing",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscump/collage/groupon/join-groups",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "GrouponDetail": {
+      "route": "GrouponDetail",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscump/collage/groupon/detail",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "GrouponList": {
+      "route": "GrouponList",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscump/groupon/list",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "InSourcingFission": {
+      "route": "InSourcingFission",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscindustry/in-sourcing-fission/activity",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "CouponList": {
+      "route": "CouponList",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscump/coupon/collection",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "PaidContentLive": {
+      "route": "PaidContentLive",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscvis/knowledge/index",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "PaidContentContent": {
+      "route": "PaidContentContent",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscvis/knowledge/index",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "PaidContentGift": {
+      "route": "PaidContentGift",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscvis/knowledge/index",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "ShopEvaluationList": {
+      "route": "ShopEvaluationList",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscgoods/shop-evaluation/list",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "GoodsFastBuy": {
+      "route": "GoodsFastBuy",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/pay/wscgoods_detail",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "tuicashier",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "UmpGroupBuy": {
+      "route": "UmpGroupBuy",
+      "targetList": [
+       {
+        "conditionList": [
+         {
+          "conditionKey": "bizEnv",
+          "value": {
+           "in": [
+            "wsc",
+            "retail"
+           ]
+          }
+         }
+        ],
+        "isDefault": 0,
+        "path": "/packages/groupbuying/buyer-trade/buying/index",
+        "protocol": "miniApp",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       },
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscump/communitybuy/buy",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "WholesaleGoodsDetail": {
+      "route": "WholesaleGoodsDetail",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscgoods/wholesale_detail/:alias",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "UserPayGradCard": {
+      "route": "UserPayGradCard",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscuser/scrm/benefitcard",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "PageLock": {
+      "route": "PageLock",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/v3/common/lock",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "HotelLocation": {
+      "route": "HotelLocation",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscshop/showcase/hotel/location",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "HotelSearch": {
+      "route": "HotelSearch",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscdeco/decorate/search-page",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "HotelSearchResult": {
+      "route": "HotelSearchResult",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscshop/showcase/hotel/hotel-search",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "HotelDetail": {
+      "route": "HotelDetail",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscindustry/hotel/detail",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "MeetReduce": {
+      "route": "MeetReduce",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscump/meetreduce/recommend",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "SecondHalf": {
+      "route": "SecondHalf",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscump/second-half-discount/recommend",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "PackageBuy": {
+      "route": "PackageBuy",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscump/bale/recommend",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "PlusBuy": {
+      "route": "PlusBuy",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscump/plusbuy/detail",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "HandselExpand": {
+      "route": "HandselExpand",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscump/handsel-expand",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "OrderDetail": {
+      "route": "OrderDetail",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wsctrade/order/detail",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "Zodiac": {
+      "route": "Zodiac",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscump/apps/zodiac",
+        "protocol": "",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "Cards": {
+      "route": "Cards",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscump/apps/cards",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "CrazyGuess": {
+      "route": "CrazyGuess",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscump/apps/crazy/game",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "EduCourse": {
+      "route": "EduCourse",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscvis/edu/prod-detail",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "GoodsHotelNew": {
+      "route": "GoodsHotelNew",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscindustry/hotel/goods",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "LotteryDetail": {
+      "route": "LotteryDetail",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscump/collage/lottery/detail",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "CpsGoodsList": {
+      "route": "CpsGoodsList",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscstatcenter/cross-shop-recommend",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "Search": {
+      "route": "Search",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscshop/showcase/feature/search",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "SearchPage": {
+      "route": "SearchPage",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscdeco/decorate/search-page",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "OrderPayResult": {
+      "route": "OrderPayResult",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wsctrade/order/payresult",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "WholesalePurchaseOrder": {
+      "route": "WholesalePurchaseOrder",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wsctrade/wholesale/purchaseOrder",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "ImIndex": {
+      "route": "ImIndex",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/v3/im/index",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "BillExceptionUnsafty": {
+      "route": "BillExceptionUnsafty",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/displaylist/detail_4_4-2-51920",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "help",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "PhysicalAddress": {
+      "route": "PhysicalAddress",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscshopcore/physical_address",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "OrderShare": {
+      "route": "OrderShare",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wsctrade/order/share",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "BatchRefundOrder": {
+      "route": "BatchRefundOrder",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscafs/batch-refund/index",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "Tutorial": {
+      "route": "Tutorial",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscump/salesman/tutorial",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "MemberCenter": {
+      "route": "MemberCenter",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscuser/levelcenter",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "RechargeList": {
+      "route": "RechargeList",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/pay/new_prepaid_balance_recharge",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "cashier",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "PresentList": {
+      "route": "PresentList",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 0,
+        "path": "/wscump/presents",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       },
+       {
+        "conditionList": [
+         {
+          "conditionKey": "bizEnv",
+          "value": {
+           "in": [
+            "wsc",
+            "retail"
+           ]
+          }
+         }
+        ],
+        "isDefault": 1,
+        "path": "/packages/ump/presents/index",
+        "protocol": "miniApp",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "Share": {
+      "route": "Share",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscgoods/share/:alias",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "ScanOrder": {
+      "route": "ScanOrder",
+      "targetList": [
+       {
+        "conditionList": [
+         {
+          "conditionKey": "bizEnv",
+          "value": {
+           "in": [
+            "wsc",
+            "retail"
+           ]
+          }
+         }
+        ],
+        "isDefault": 1,
+        "path": "/packages/retailb/goodslist/index",
+        "protocol": "miniApp",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "DianDanBao": {
+      "route": "DianDanBao",
+      "targetList": [
+       {
+        "conditionList": [
+         {
+          "conditionKey": "bizEnv",
+          "value": {
+           "in": [
+            "wsc",
+            "retail"
+           ]
+          }
+         }
+        ],
+        "isDefault": 1,
+        "path": "/packages/retail-shelf/shelf/index",
+        "protocol": "miniApp",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "TradePay": {
+      "route": "TradePay",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/pay/wsctrade_pay",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "order-paid": {
+      "route": "order-paid",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wsctrade/order/payresult",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "webviewCashier",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "trade-pay": {
+      "route": "trade-pay",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/pay/wsctrade_pay",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "webviewCashier",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "GiftUsingTips": {
+      "route": "GiftUsingTips",
+      "targetList": [
+       {
+        "conditionList": [
+         {
+          "conditionKey": "bizEnv",
+          "value": {
+           "in": [
+            "wsc",
+            "retail"
+           ]
+          }
+         }
+        ],
+        "isDefault": 1,
+        "path": "/wsctrade/gift/using-tips",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "GiftShare": {
+      "route": "GiftShare",
+      "targetList": [
+       {
+        "conditionList": [
+         {
+          "conditionKey": "bizEnv",
+          "value": {
+           "in": [
+            "wsc",
+            "retail"
+           ]
+          }
+         }
+        ],
+        "isDefault": 1,
+        "path": "/wsctrade/gift/share",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "GiftRules": {
+      "route": "GiftRules",
+      "targetList": [
+       {
+        "conditionList": [
+         {
+          "conditionKey": "bizEnv",
+          "value": {
+           "in": [
+            "wsc",
+            "retail"
+           ]
+          }
+         }
+        ],
+        "isDefault": 1,
+        "path": "/wsctrade/gift/rules",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "GiftOpen": {
+      "route": "GiftOpen",
+      "targetList": [
+       {
+        "conditionList": [
+         {
+          "conditionKey": "bizEnv",
+          "value": {
+           "in": [
+            "retail",
+            "wsc"
+           ]
+          }
+         }
+        ],
+        "isDefault": 1,
+        "path": "/wsctrade/gift/open-gift",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "GiftList": {
+      "route": "GiftList",
+      "targetList": [
+       {
+        "conditionList": [
+         {
+          "conditionKey": "bizEnv",
+          "value": {
+           "in": [
+            "wsc",
+            "retail"
+           ]
+          }
+         }
+        ],
+        "isDefault": 1,
+        "path": "/wsctrade/gift/gift-list",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "GiftGoodsList": {
+      "route": "GiftGoodsList",
+      "targetList": [
+       {
+        "conditionList": [
+         {
+          "conditionKey": "bizEnv",
+          "value": {
+           "in": [
+            "wsc",
+            "retail"
+           ]
+          }
+         }
+        ],
+        "isDefault": 1,
+        "path": "/wsctrade/gift/goods-list",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "GiftCart": {
+      "route": "GiftCart",
+      "targetList": [
+       {
+        "conditionList": [
+         {
+          "conditionKey": "bizEnv",
+          "value": {
+           "in": [
+            "wsc",
+            "retail"
+           ]
+          }
+         }
+        ],
+        "isDefault": 1,
+        "path": "/wsctrade/gift/cart",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "member-center-free": {
+      "route": "member-center-free",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wscuser/levelcenter",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "member-center-plus": {
+      "route": "member-center-plus",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/pay/wscuser_pluscenter",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "cashier",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "evaluation-list": {
+      "route": "evaluation-list",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/wsctrade/order/evaluate/center",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "RechargeHome": {
+      "route": "RechargeHome",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/prepaid/card/index",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     },
+     "RechargeBuyCenter": {
+      "route": "RechargeBuyCenter",
+      "targetList": [
+       {
+        "conditionList": [],
+        "isDefault": 1,
+        "path": "/prepaid/card/giftcard/buy/center",
+        "protocol": "https",
+        "rankIndex": 0,
+        "scene": "",
+        "domain": "",
+        "hostApp": "unknown",
+        "authType": "unknown"
+       }
+      ]
+     }
+    }
+   },
+   "initParams": {
+    "biz": "yzWeb",
+    "hostApp": "unknown",
+    "authType": "unknown",
+    "kdtId": 45818390
+   }
+  },
+  "__initJsonpCryptoPerf": {
+   "cem": 0,
+   "cet": 4
+  }
+ }
+}

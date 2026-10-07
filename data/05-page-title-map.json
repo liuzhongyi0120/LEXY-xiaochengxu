@@ -1,0 +1,2714 @@
+[
+ {
+  "page": "__plugin__/wx2b03c6e691cd7370/pages/live-player-plugin.html",
+  "title": null,
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "__plugin__/wx2b03c6e691cd7370/wxlive-components/ext-player/address-preview/address-preview.html",
+  "title": null,
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "__plugin__/wx2b03c6e691cd7370/wxlive-components/ext-player/complaint-comment/complaint-comment.html",
+  "title": null,
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "__plugin__/wx2b03c6e691cd7370/wxlive-components/ext-player/complaint-room/complaint-room.html",
+  "title": null,
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/account/bind-new/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/account/bind-update/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/account/login-page.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/account/login/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/account/settings/index.html",
+  "title": "账号与安全",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/account/to-bind/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/assets/prior-use/index.html",
+  "title": "先用后付",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/async-core/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/async-feature-ext/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/async-main/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/async-minor/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/async-retail/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/async-tee/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/async-usecenter/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/async-video/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/benefit-card/active/index.html",
+  "title": "完善基本信息",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/benefit-card/benefit-list/index.html",
+  "title": "全部权益",
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/benefit-card/detail/index.html",
+  "title": "权益卡详情",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/benefit-card/intro/index.html",
+  "title": "使用须知",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/benefit-card/level/index.html",
+  "title": "等级说明",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/benefit-card/list/index.html",
+  "title": "权益卡列表",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/benefit-card/record-detail/index.html",
+  "title": "使用详情",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/benefit-card/record-list/index.html",
+  "title": "使用记录",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/benefit-card/result/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/benefit-card/setting/index.html",
+  "title": "会员信息设置",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/benefit-card/take/index.html",
+  "title": "权益卡",
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/business-card/auth/index.html",
+  "title": "名片授权",
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/business-card/detail/index.html",
+  "title": "我的名片",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/card/active/index.html",
+  "title": "完善基本信息",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/card/all/index.html",
+  "title": "权益卡列表",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/card/detail/index.html",
+  "title": "权益卡",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/card/level/index.html",
+  "title": "等级说明",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/card/list/index.html",
+  "title": "权益卡列表",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/card/result/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/card/setting/index.html",
+  "title": "会员信息设置",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/channel/agent/index.html",
+  "title": "代理商中心",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/channel/indentor/index.html",
+  "title": "订货商中心",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/collage/groupon/detail/index.html",
+  "title": "拼团详情",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/collage/groupon/join-groups/index.html",
+  "title": "懒人凑团",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/collage/lottery/detail/index.html",
+  "title": "拼团详情",
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/collage/lottery/result/index.html",
+  "title": "抽奖结果",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/common/error/index.html",
+  "title": "哎呀，出错了",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/common/limit-page/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/common/lock/index.html",
+  "title": "提示",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/common/out-of-service/index.html",
+  "title": "哎呀，出错了",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/common/shopping-list/entry/index.html",
+  "title": "关于好物圈",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/common/stop-service/index.html",
+  "title": "哎呀，出错了",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/edu/audio-playbg/index.html",
+  "title": null,
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/edu/webview/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/evaluation/goods/detail/index.html",
+  "title": "评价详情",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/evaluation/goods/list/index.html",
+  "title": "评价列表",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/evaluation/order/create/index.html",
+  "title": "评价晒单",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/evaluation/order/detail/index.html",
+  "title": "查看评价",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/evaluation/order/review/index.html",
+  "title": "追加评价",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/ext-marketing-page/index.html",
+  "title": "活动会场",
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/feature-video/search/index.html",
+  "title": "专题视频搜索",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/gift/cart/index.html",
+  "title": null,
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/gift/gift-list/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/gift/goods-list/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/gift/share/index.html",
+  "title": null,
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/goods-core/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/goods-list/all/index.html",
+  "title": null,
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/goods-list/search-result/index.html",
+  "title": "商品搜索",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/goods-list/tag/index.html",
+  "title": null,
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/goods-main/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/goods-minor/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/goods/cart/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/goods/detail/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/goods/groupon/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/goods/help-cut/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/goods/lucky-draw-group/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/goods/points/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/goods/present/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/goods/seckill/end.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/goods/seckill/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/goods/share/index.html",
+  "title": null,
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/goods/tuan/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/group-center/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/groupbuying/activity/detail/index.html",
+  "title": "活动详情",
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/groupbuying/activity/list/index.html",
+  "title": "活动",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/groupbuying/buyer-order/index.html",
+  "title": "订单",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/groupbuying/buyer-trade/buying/index.html",
+  "title": "福利团购",
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/groupbuying/buyer-trade/coupon/index.html",
+  "title": "选择优惠",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/groupbuying/buyer-trade/detail/index.html",
+  "title": "订单详情",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/groupbuying/buyer-trade/pay/index.html",
+  "title": "确认订单",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/groupbuying/header-order/index.html",
+  "title": "订单",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/groupbuying/header-recruit/chain/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/groupbuying/header-recruit/home/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/groupbuying/header-recruit/join-fee/index.html",
+  "title": "申请门槛",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/groupbuying/header-recruit/message/index.html",
+  "title": "填写团长信息",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/groupbuying/header-recruit/result/index.html",
+  "title": "团长招募",
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/groupbuying/location/index.html",
+  "title": "附近团长",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/groupbuying/my-profit/home/index.html",
+  "title": "我的",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/groupbuying/my-profit/verify-list/index.html",
+  "title": "提货核销",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/groupbuying/my-profit/verify/index.html",
+  "title": "提货核销",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/groupbuying/my-profit/withdraw/account-choose/index.html",
+  "title": "选择提现账户",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/groupbuying/my-profit/withdraw/account-set/index.html",
+  "title": "设置银行卡账户",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/groupbuying/my-profit/withdraw/income-detail/index.html",
+  "title": "收支明细",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/groupbuying/my-profit/withdraw/withdraw-assets/index.html",
+  "title": "提现",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/groupbuying/my-profit/withdraw/withdraw-center/index.html",
+  "title": "提现中心",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/groupbuying/my-profit/withdraw/withdraw-record/index.html",
+  "title": "提现记录",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/guide/front-guide/index.html",
+  "title": " ",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/guide/pages/all-gift-cards/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/guide/pages/coupon/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/guide/pages/front-guide/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/guide/pages/material/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/guide/pages/member-promotion/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/guide/pages/moments-material/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/guide/pages/moments-task/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/guide/pages/process-moments-task/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/guide/pages/stored-value/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/guide/pages/visit-task/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/guide/pages/wecom-transfer/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/guide/promote-goods-list/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/guide/promote/goods/index.html",
+  "title": "推广商品",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/guide/zone/material/index.html",
+  "title": "素材中心",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/home/bear/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/home/dashboard/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/home/feature/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/home/tab/one.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/home/tab/three.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/home/tab/two.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/hotel/hotel-search/location.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/hotel/hotel-search/search-result.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/hotel/hotel-search/search.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/independent/goods/fastbuy/index.html",
+  "title": "商品详情",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/levelcenter/benefit/index.html",
+  "title": "特权详情",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/levelcenter/free/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/levelcenter/offline-recruit/index.html",
+  "title": "会员中心",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/levelcenter/pay/index.html",
+  "title": "PLUS会员中心",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/levelcenter/plus/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/member-benefit/benefit/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/member-code/index.html",
+  "title": "会员码",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false
+ },
+ {
+  "page": "packages/message/contact/index.html",
+  "title": "在线客服",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/message/satisfaction/index.html",
+  "title": "满意度邀评",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/message/subscribe/index.html",
+  "title": "消息订阅引导页面",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/message/wxkf/index.html",
+  "title": "在线客服",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/new-punch/introduction/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/new-punch/rank/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/new-punch/task/diary/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/new-punch/task/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/order-native/address-city/index.html",
+  "title": "选择城市",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/order-native/address-edit/index.html",
+  "title": null,
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/order-native/address-list/index.html",
+  "title": null,
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/order-native/address-map/index.html",
+  "title": "选择收货地址",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/order-native/contact/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/order-native/coupon/index.html",
+  "title": "选择优惠",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/order-native/fastbuy/index.html",
+  "title": "待付款的订单",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/order-native/idcard/index.html",
+  "title": "身份信息",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/order-native/index.html",
+  "title": null,
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/order-native/invoice/index.html",
+  "title": "发票",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/order-native/prepay-card/index.html",
+  "title": "选择储值卡/礼品卡",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/order-native/self-fetch-address-city/index.html",
+  "title": "选择提货点",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/order-native/self-fetch-address/index.html",
+  "title": "选择提货点",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/order-native/share-page/index.html",
+  "title": "好物分享",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/order/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/order/paid/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/order/share-page/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/paid/pay-result/success/index.html",
+  "title": null,
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/paidcontent/column/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/paidcontent/content/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/paidcontent/exam/exam-detail/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/paidcontent/exam/exam-question/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/paidcontent/exam/exam-result/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/paidcontent/gift/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/paidcontent/groupon/index.html",
+  "title": "邀请好友参团",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/paidcontent/invite-card/index.html",
+  "title": "分享邀请好友",
+  "navigationStyle": null,
+  "enablePullDownRefresh": false
+ },
+ {
+  "page": "packages/paidcontent/list/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/paidcontent/live-room/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/paidcontent/live/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/paidcontent/pay/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": false
+ },
+ {
+  "page": "packages/paidcontent/rights/index.html",
+  "title": "会员",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/paidcontent/support/index.html",
+  "title": "好友助力",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/pay/cashier-middle-page/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/pay/unicashier/index.html",
+  "title": "买单",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/pay/wx-request/index.html",
+  "title": "微信支付",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/pay/wxh5-downgrade-result/index.html",
+  "title": "支付结果",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/pay/wxh5-downgrade/index.html",
+  "title": "微信支付",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/pay/yzp/index.html",
+  "title": "支付",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/point/home/index.html",
+  "title": "集点卡",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/pointstore/exchange-result/index.html",
+  "title": "兑换成功",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/pointstore/goods-details/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/pointstore/index/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/pointstore/point-center/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/pointstore/point-details/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/pointstore/point-rule/index.html",
+  "title": "积分规则",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/pointstore/sync-wxcard/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/pointstore/trade-details/index.html",
+  "title": "交易记录",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/pre-card/agreement/index.html",
+  "title": "服务协议",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/pre-card/buy-center/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/pre-card/disable/index.html",
+  "title": "卡",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/pre-card/exchange/index.html",
+  "title": "兑换",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/pre-card/home/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/pre-card/order-buy/index.html",
+  "title": "购买礼品卡",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/pre-card/receive/index.html",
+  "title": "领取",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/pre-card/recharge/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/pre-card/record/index.html",
+  "title": "交易记录",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/pre-card/success-buy/index.html",
+  "title": "购买成功",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/pre-card/success-recharge/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/pre-card/wechat-pay/index.html",
+  "title": "微信支付",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/retail-shelf/bookseat-detail/index.html",
+  "title": "预约订座详情",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false
+ },
+ {
+  "page": "packages/retail-shelf/bookseat-letter/index.html",
+  "title": "邀请函",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false
+ },
+ {
+  "page": "packages/retail-shelf/goods-detail/index.html",
+  "title": "商品详情",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/retail-shelf/redirect/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/retail-shelf/search/index.html",
+  "title": "搜索商品",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/retail-shelf/shelf/index.html",
+  "title": null,
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/retail-shelf/shipping-form/index.html",
+  "title": "扫码寄件",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/retail-shelf/wine-tasting-detail/index.html",
+  "title": "活动预定详情",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false
+ },
+ {
+  "page": "packages/retail-shelf/wine-tasting-invitation/index.html",
+  "title": "邀请函",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false
+ },
+ {
+  "page": "packages/retail-shelf/wine-tasting-participants/index.html",
+  "title": "活动预定参与人填写",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false
+ },
+ {
+  "page": "packages/retail/buy/coupon/index.html",
+  "title": "选择优惠",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/retail/buy/member-benefit/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/retail/buy/value-card/index.html",
+  "title": "选择余额/卡",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/retail/chat/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": false
+ },
+ {
+  "page": "packages/retail/dashboard/index.html",
+  "title": "有赞",
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/retail/extra/available-goods-list/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/retail/extra/chat-transfer/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/retail/extra/exchange-goods/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/retail/extra/sales/bi-card/index.html",
+  "title": "名片",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/retail/extra/sales/bi-list/index.html",
+  "title": "名片列表",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/retail/membercenter/index.html",
+  "title": "会员中心",
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/retail/order-pool/detail/index.html",
+  "title": "拼单详情",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/retail/order-pool/order-pool/index.html",
+  "title": null,
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/retail/order/list/index.html",
+  "title": "订单列表",
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/retail/paid/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/retail/scan-page/index.html",
+  "title": "自助结账",
+  "navigationStyle": null,
+  "enablePullDownRefresh": false
+ },
+ {
+  "page": "packages/retail/shop-list/index.html",
+  "title": "门店列表",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/retail/usercenter/account-setting/index.html",
+  "title": "账号设置",
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/retail/usercenter/collect-points-detail/index.html",
+  "title": "集点详情",
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/retail/usercenter/collect-points/index.html",
+  "title": "集点",
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/retail/usercenter/dashboard-v2/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/retail/usercenter/status/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/retailb/buy/index.html",
+  "title": null,
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/retailb/goodslist/index.html",
+  "title": null,
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/retailb/order/add-friends/index.html",
+  "title": null,
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/retailb/order/detail/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/retailb/order/pre-detail/index.html",
+  "title": null,
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/retailb/order/success/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/salesman/business-card/index.html",
+  "title": "我的名片",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/salesman/external-card/index.html",
+  "title": "对外名片",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/salesman/invite/index.html",
+  "title": "邀请卡",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/salesman/promote/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/salesman/rank/index.html",
+  "title": "排行榜",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/salesman/report/index.html",
+  "title": "业绩战报",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/salesman/salesman-center/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/salesman/task-award/index.html",
+  "title": "奖励中心",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/salesman/task-detail/index.html",
+  "title": "奖励详情",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/salesman/tutorial/index.html",
+  "title": "招募计划",
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/salesman/zone/editor/index.html",
+  "title": "发动态",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/salesman/zone/home/index.html",
+  "title": "动态",
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/salesman/zone/material/index.html",
+  "title": "素材中心",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/scan-code-buy/bear/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/scan-code-buy/scan-cart/index.html",
+  "title": "购物车",
+  "navigationStyle": null,
+  "enablePullDownRefresh": false
+ },
+ {
+  "page": "packages/scan-code-buy/scan-dashboard/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/shop-select/chain-store/retail-order-shop-select/index.html",
+  "title": "选择店铺",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/shop-select/chain-store/shopselect/index.html",
+  "title": null,
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/shop/again-enter-loaing/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/shop/buyers-show/list/index.html",
+  "title": "买家秀",
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/shop/chain-store/editaddress/index.html",
+  "title": "搜索地址",
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/shop/chain-store/shopselect/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/shop/chain-store/storeall/index.html",
+  "title": "全部店铺",
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/shop/goods/all/index.html",
+  "title": "全部商品",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/shop/goods/group/index.html",
+  "title": null,
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/shop/goods/search/index.html",
+  "title": "商品搜索",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/shop/goods/tag-list/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/shop/info/index.html",
+  "title": "店铺信息",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/shop/language-setting/index.html",
+  "title": "语言",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/shop/levelcenter/free/index.html",
+  "title": null,
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/shop/levelcenter/member-fill-auth/index.html",
+  "title": "注册会员",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/shop/levelcenter/member-fill-page/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/shop/levelcenter/plus/index.html",
+  "title": null,
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/shop/multi-store/index/index.html",
+  "title": "选择门店",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/shop/multi-store/search/index.html",
+  "title": "按名称、地址搜索门店",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/shop/multi-store/select-poi/address-edit/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/shop/multi-store/select-poi/index/index.html",
+  "title": "选择收货地址",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/shop/physical-address/index.html",
+  "title": "搜索地址",
+  "navigationStyle": null,
+  "enablePullDownRefresh": false
+ },
+ {
+  "page": "packages/shop/physical-store/index.html",
+  "title": "门店列表",
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/shop/salesman/promote/index.html",
+  "title": null,
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/shop/search-page/index.html",
+  "title": "商品搜索",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/shop/shopnote/detail/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/shop/shopnote/list/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/shop/shopnote/mparticle/detail/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/shop/shopnote/mparticle/share/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/shop/ump/sign-in/index.html",
+  "title": null,
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/short-video/index.html",
+  "title": "短视频",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/showcase-template/index.html",
+  "title": "首页",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/statcenter/cps-goods-list/index.html",
+  "title": "周边好物推荐",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/takeaway-search/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/tech-support/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/third-yun/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/trade-buy-subpage/drug-history/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/trade-buy-subpage/drug-manual/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/trade-buy-subpage/drug-message/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/trade-buy-subpage/drug-user/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/trade-buy-subpage/order/address-city/index.html",
+  "title": "选择城市",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/trade-buy-subpage/order/address-edit/index.html",
+  "title": null,
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/trade-buy-subpage/order/address-map/index.html",
+  "title": "选择收货地址",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/trade-buy-subpage/order/contact/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/trade-buy-subpage/order/self-fetch-address-city/index.html",
+  "title": "选择提货点",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/trade-buy-subpage/order/self-fetch-address/index.html",
+  "title": "选择提货地点",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/trade-buy/order/address-city/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/trade-buy/order/address-edit/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/trade-buy/order/address-map/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/trade-buy/order/buy/index.html",
+  "title": "确认订单",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/trade-buy/order/contact/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/trade-buy/order/self-fetch-address-city/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/trade-buy/order/self-fetch-address/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/trade-cart/cart/index.html",
+  "title": "购物车",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/trade-pay/pay/index.html",
+  "title": "待付款的订单",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/trade/cart/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/trade/cert/verify-ticket/index.html",
+  "title": "电子卡券凭证",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/trade/crm-order-detail/index.html",
+  "title": "订单详情",
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/trade/goods-message/index.html",
+  "title": "查看留言",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/trade/order-detail/index.html",
+  "title": "订单详情",
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/trade/order-search/index.html",
+  "title": "订单搜索",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/trade/order/batch-refund/index.html",
+  "title": "批量退款",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/trade/order/buy-h5/index.html",
+  "title": "确认订单",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/trade/order/express/index.html",
+  "title": "物流信息",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/trade/order/invoice/index.html",
+  "title": "发票",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/trade/order/list/index.html",
+  "title": null,
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/trade/order/result/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/trade/order/safe/apply/index.html",
+  "title": "申请退款",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/trade/order/safe/express/index.html",
+  "title": "填写退货物流",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/trade/order/safe/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/trade/order/safe/info/index.html",
+  "title": "退款详情",
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/trade/order/selffetch-list/index.html",
+  "title": "待自提订单",
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/trade/order/share/index.html",
+  "title": "订单分享",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/trade/order/subscription/index.html",
+  "title": "订阅物流",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/trade/order/unicashier-result/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/trade/refund/list/index.html",
+  "title": "退款/售后",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/trade/temp-page/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/ump/apps/cards/index.html",
+  "title": "刮刮乐",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/ump/apps/crazy/help/index.html",
+  "title": "疯狂猜",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/ump/apps/crazy/index.html",
+  "title": "疯狂猜",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/ump/apps/shake/index.html",
+  "title": "摇一摇",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/ump/apps/zodiac/index.html",
+  "title": "生肖翻翻看",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/ump/bargain-purchase/home/index.html",
+  "title": "砍价购",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/ump/blind-box/auth/index.html",
+  "title": "盲盒",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/ump/booking/index.html",
+  "title": null,
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/ump/bundle-purchase/goods-list/index.html",
+  "title": "打包一口价",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/ump/carve-coupon/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/ump/collect-gift/home/index.html",
+  "title": "收藏有礼",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/ump/coupon-pack/fetch/index.html",
+  "title": "优惠券礼包",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/ump/discount-packages/index.html",
+  "title": "优惠套餐",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/ump/fission/index.html",
+  "title": "优惠券礼包",
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/ump/gift/cart/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/ump/gift/gift-list/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/ump/gift/goods-list/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/ump/gift/open-gift/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/ump/gift/share/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/ump/handsel-expand/index.html",
+  "title": "助力定金膨胀",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/ump/helpcut/index.html",
+  "title": "砍价购",
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/ump/in-sourcing-fission/index.html",
+  "title": "活动首页",
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/ump/integral-store/coupon/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/ump/integral-store/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/ump/lottery-code/index.html",
+  "title": null,
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/ump/meet-reduce-goods/index.html",
+  "title": "满减送",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/ump/membercard-groupon/index.html",
+  "title": "会员卡拼团",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/ump/new-lottery/casino/index.html",
+  "title": "幸运大抽奖",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/ump/new-lottery/list/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/ump/periodbuy-list/index.html",
+  "title": "周期购商品列表",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/ump/pintuan/detail/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/ump/pintuan/playing-instruction/index.html",
+  "title": "多人拼团玩法",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/ump/plusbuy/index.html",
+  "title": "优惠换购",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/ump/presents/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/ump/second-half-discount/index.html",
+  "title": "第2件半价",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/ump/share-benefit/index.html",
+  "title": "分享有礼",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/ump/share-polite-landing-pages/index.html",
+  "title": "分享有礼",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/ump/sign-in/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/ump/split-coupon-friend/index.html",
+  "title": "好友瓜分券",
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/ump/welike/index.html",
+  "title": "大家喜欢",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/ump/wine-tasting/activity/index.html",
+  "title": "活动详情",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/ump/wine-tasting/sign-in/index.html",
+  "title": "签到",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/user/cashback/detail/index.html",
+  "title": "返现详情",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/user/cashback/list/index.html",
+  "title": "我的返现",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/user/coupon/detail/index.html",
+  "title": "优惠详情",
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/user/coupon/fetch/index.html",
+  "title": "领取优惠",
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/user/coupon/goods-list/index.html",
+  "title": "可用商品",
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/user/coupon/list/index.html",
+  "title": "我的券码",
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/user/coupon/qrcode/index.html",
+  "title": "核销码",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/user/coupon/shop/index.html",
+  "title": "店铺优惠券",
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/user/integral/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/user/mediator-coupon/invalid-list/index.html",
+  "title": "失效优惠券",
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/user/mediator-coupon/list/index.html",
+  "title": "跨店优惠券",
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/user/membercenter/setting/index.html",
+  "title": "个人信息",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/user/task-center/index.html",
+  "title": "任务中心",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/usercenter/dashboard-t1/index.html",
+  "title": "个人中心",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/usercenter/dashboard/index.html",
+  "title": "个人中心",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/vote/login/index.html",
+  "title": "登录",
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/vote/voteweb/index.html",
+  "title": "首页",
+  "navigationStyle": null,
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "packages/weapp-live/authorize/index.html",
+  "title": "授权登录",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/weapp-live/common/index.html",
+  "title": null,
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/weapp-live/room/index.html",
+  "title": "直播间",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/weass/moments/index.html",
+  "title": "发朋友圈",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/weass/qrcode-process/index.html",
+  "title": "注册成功",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/weass/redirect/index.html",
+  "title": "跳转中...",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/wxvideo/cps/click/index.html",
+  "title": "商品详情",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/wxvideo/cps/coupon/index.html",
+  "title": "优惠券",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/wxvideo/fastbuy/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/wxvideo/media-list/index.html",
+  "title": null,
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false
+ },
+ {
+  "page": "packages/wxvideo/validate/index.html",
+  "title": "视频号验证",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false
+ },
+ {
+  "page": "packages/wxvideo/weshop/benefit-select/index.html",
+  "title": "使用会员权益",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "packages/zan-web-view/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "pages-retail/dashboard/index.html",
+  "title": null,
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "pages-retail/usercenter/account-setting/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "pages-retail/usercenter/dashboard-v2/index.html",
+  "title": null,
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "pages-retail/usercenter/status/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "pages/account/login/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "pages/bear/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "pages/common/blank-page/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "pages/common/dmc-blank-page/index.html",
+  "title": "加载中...",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "pages/common/webview-expires/index.html",
+  "title": "加载中...",
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "pages/common/webview-page/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "pages/goods/all/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "pages/goods/cart/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "pages/goods/detail/index.html",
+  "title": "商品详情",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "pages/goods/group/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "pages/goods/search/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "pages/goods/seckill/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "pages/home/dashboard/index.html",
+  "title": null,
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "pages/home/feature/index.html",
+  "title": null,
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "pages/home/tab/one.html",
+  "title": null,
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "pages/home/tab/three.html",
+  "title": null,
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "pages/home/tab/two.html",
+  "title": null,
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "pages/membercard/active/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "pages/membercard/detail/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "pages/membercard/level/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "pages/membercard/list/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "pages/membercard/result/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "pages/membercard/setting/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "pages/order/share/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "pages/paidcontent/column/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "pages/paidcontent/content/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "pages/paidcontent/list/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "pages/paidcontent/live/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "pages/paidcontent/pay/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "pages/pay/unicashier/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "pages/salesman/salesman-center/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "pages/salesman/tutorial/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "pages/shop/shopnote/list/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "pages/trade/buy/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "pages/ump/fission/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "pages/ump/integral-store/coupon/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "pages/ump/integral-store/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "pages/ump/pintuan/detail/index.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "pages/ump/pintuan/playingInstruction/playingInstruction.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ },
+ {
+  "page": "pages/usercenter/dashboard/index.html",
+  "title": null,
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true
+ },
+ {
+  "page": "pages/usercenter/promotion/promotion_detail.html",
+  "title": null,
+  "navigationStyle": null,
+  "enablePullDownRefresh": null
+ }
+]

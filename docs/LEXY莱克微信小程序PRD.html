@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="docx-page-size" content="A4">
+  <title>LEXY莱克 微信小程序 框架结构拆解与复刻 PRD</title>
+  <style>
+  @page { @bottom-center { content: counter(page); } }
+  @page cover { @bottom-center { content: none; } }
+  section[role="cover"] { page: cover; }
+
+  :root {
+    /* --- design tokens: business-modern (compiled) --- */
+    --typography-fontFamily-heading: 微软雅黑, "Microsoft YaHei", "PingFang SC", sans-serif;
+    --typography-fontFamily-body: 微软雅黑, "Microsoft YaHei", "PingFang SC", sans-serif;
+    --typography-fontFamily-bodyLatin: Calibri, "Helvetica Neue", sans-serif;
+    --typography-fontFamily-data: "DIN Next", Arial, sans-serif;
+    --typography-fontFamily-code: Consolas, "Source Code Pro", monospace;
+    --typography-fontSize-title: 28pt;
+    --typography-fontSize-subtitle: 18pt;
+    --typography-fontSize-h1: 20pt;
+    --typography-fontSize-coverTitle: 22pt;
+    --typography-fontSize-coverCategory: 14pt;
+    --typography-fontSize-sectionHeader: 13pt;
+    --typography-fontSize-h2: 11pt;
+    --typography-fontSize-h3: 10pt;
+    --typography-fontSize-body: 9pt;
+    --typography-fontSize-small: 8pt;
+    --typography-fontSize-tiny: 7pt;
+    --typography-fontSize-caption: 9pt;
+    --typography-fontSize-dataLabel: 10pt;
+    --typography-lineHeight-title: 1.3;
+    --typography-lineHeight-body: 1.6;
+    --typography-lineHeight-compact: 1.2;
+    --typography-fontWeight-heading: 600;
+    --typography-fontWeight-body: 400;
+    --typography-fontWeight-emphasis: 500;
+    --color-primary: #1565C0;
+    --color-secondary: #0288D1;
+    --color-accent: #00897B;
+    --color-text: #212121;
+    --color-textSecondary: #616161;
+    --color-heading: #1A237E;
+    --color-divider: #E0E0E0;
+    --color-background: #FFFFFF;
+    --color-surface: #F5F7FA;
+    --color-dataViz-series1: #1565C0;
+    --color-dataViz-series2: #00897B;
+    --color-dataViz-series3: #F9A825;
+    --color-dataViz-series4: #E53935;
+    --color-dataViz-series5: #7B1FA2;
+    --color-dataViz-series6: #0288D1;
+    --spacing-paragraph: 0.75em;
+    --spacing-paragraphAfter: 0.75em;
+    --spacing-indent: 0em;
+    --spacing-sectionGap: 2.5em;
+    --spacing-cardPadding: 1.5em;
+    --layout-marginTop: 2.5cm;
+    --layout-marginBottom: 2.0cm;
+    --layout-marginLeft: 2.5cm;
+    --layout-marginRight: 2.5cm;
+    --layout-pageSize: A4;
+    --layout-maxContentWidth: 160mm;
+
+    /* --- supplementary spacing tokens --- */
+    --spacing-hair: 0.1em;
+    --spacing-xs: 0.2em;
+    --spacing-sm: 0.25em;
+    --spacing-md: 0.3em;
+    --spacing-row: 0.45em;
+    --spacing-half: 0.5em;
+    --spacing-cell: 0.6em;
+    --spacing-card: 0.8em;
+    --spacing-unit: 1em;
+    --spacing-list: 1.5em;
+    --spacing-listIndent: 1.6em;
+
+    /* --- template aliases --- */
+    --fs-h1: var(--typography-fontSize-h1);
+    --fs-h2: var(--typography-fontSize-h2);
+    --fs-h3: var(--typography-fontSize-h3);
+    --fs-body: var(--typography-fontSize-body);
+    --fs-small: var(--typography-fontSize-small);
+    --ff-heading: var(--typography-fontFamily-heading);
+    --ff-body: var(--typography-fontFamily-body);
+    --lh-body: var(--typography-lineHeight-body);
+    --fw-bold: var(--typography-fontWeight-heading);
+    --color-muted: var(--color-textSecondary);
+    --color-border: var(--color-divider);
+    --color-bg: var(--color-background);
+    --color-highlight: var(--color-surface);
+    --color-summary-bg: var(--color-surface);
+    --color-summary-border: var(--color-primary);
+    --summary-border-width: 4px;
+    --radius-card: var(--spacing-unit);
+    --shadow-card: 0 2px 8px rgba(0,0,0,0.08);
+    --spacing-section: var(--spacing-sectionGap);
+    --spacing-block: var(--spacing-unit);
+    --margin-page: var(--layout-marginLeft);
+    --color-emphasis: #c62828;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: var(--ff-body); font-size: var(--fs-body); line-height: var(--lh-body); color: var(--color-text); background: var(--color-bg); }
+
+  /* Cover */
+  .report-cover { display: flex; flex-direction: column; justify-content: center; align-items: flex-start; min-height: 60vh; padding: var(--margin-page); background: var(--color-highlight); }
+  .cover-logo-placeholder { width: 80px; height: 40px; background: var(--color-primary); margin-bottom: var(--spacing-section); }
+  .cover-category { font-size: var(--typography-fontSize-coverCategory); font-family: var(--ff-heading); font-weight: var(--fw-bold); color: var(--color-primary); letter-spacing: 0.08em; margin-bottom: var(--spacing-card); text-align: left; }
+  .cover-title { font-size: var(--typography-fontSize-coverTitle); font-family: var(--ff-heading); font-weight: var(--fw-bold); color: var(--color-heading); margin-bottom: var(--spacing-half); }
+  .cover-subtitle { font-size: var(--typography-fontSize-subtitle); color: var(--color-muted); margin-bottom: var(--spacing-section); }
+  .cover-meta { font-size: var(--fs-small); color: var(--color-muted); }
+
+  /* TOC */
+  .doc-toc { padding: var(--spacing-block) var(--margin-page); background: var(--color-bg); border-bottom: 1px solid var(--color-border); }
+  .toc-title { font-weight: var(--fw-bold); margin-bottom: var(--spacing-half); font-family: var(--ff-heading); font-size: var(--fs-h3); color: var(--color-heading); }
+  .toc-list, .toc-list ol, .toc-list ul { list-style: none; list-style-type: none; padding-left: var(--spacing-list); }
+  .toc-list li { margin-bottom: var(--spacing-md); text-indent: 0; }
+
+  /* Executive summary */
+  .executive-summary { margin: var(--spacing-section) var(--margin-page); padding: var(--spacing-section); border-left: var(--summary-border-width) solid var(--color-summary-border); background: var(--color-summary-bg); border-radius: 0 var(--radius-card) var(--radius-card) 0; }
+  .summary-header { display: flex; align-items: center; gap: var(--spacing-unit); margin-bottom: var(--spacing-block); }
+  .summary-header h2 { font-size: var(--fs-h2); font-family: var(--ff-heading); border-left: none; padding-left: 0; margin-top: 0; }
+  .summary-badge { font-size: var(--fs-small); color: var(--color-muted); font-style: italic; }
+  .summary-highlights { display: flex; gap: var(--spacing-block); flex-wrap: wrap; margin-bottom: var(--spacing-block); }
+  .summary-body p { margin-bottom: var(--spacing-paragraph); }
+
+  /* data-card */
+  [data-component="data-card"] { flex: 1 1 20%; min-width: 22%; background: var(--color-bg); border: 1px solid var(--color-border); border-radius: var(--radius-card); padding: var(--spacing-card); box-shadow: var(--shadow-card); }
+  [data-component="data-card"] .card-value { font-family: var(--typography-fontFamily-data); font-size: var(--typography-fontSize-h2); font-weight: var(--fw-bold); color: var(--color-primary); }
+  [data-component="data-card"] .card-unit { font-size: var(--fs-small); color: var(--color-muted); margin-left: var(--spacing-md); }
+  [data-component="data-card"] .card-label { display: block; font-size: var(--fs-small); color: var(--color-muted); margin-top: var(--spacing-xs); }
+
+  /* Body */
+  .report-body { padding: var(--spacing-section) var(--margin-page); }
+  .report-body h2 { font-size: var(--fs-h2); font-family: var(--ff-heading); font-weight: var(--fw-bold); margin-top: var(--spacing-section); margin-bottom: var(--spacing-paragraph); color: var(--color-heading); border-left: 4px solid var(--color-primary); padding-left: var(--spacing-cell); }
+  .report-body h3 { font-size: var(--fs-h3); font-family: var(--ff-heading); font-weight: var(--fw-bold); margin-top: var(--spacing-block); margin-bottom: var(--spacing-paragraph); color: var(--color-heading); }
+  .report-body p { margin-bottom: var(--spacing-paragraph); }
+  .report-body ul, .report-body ol { margin-left: var(--spacing-listIndent); margin-bottom: var(--spacing-paragraph); }
+  .report-body li { margin-bottom: var(--spacing-sm); }
+  .report-body code { font-family: var(--typography-fontFamily-code); font-size: var(--fs-small); background: var(--color-highlight); padding: var(--spacing-hair) var(--spacing-md); border-radius: var(--spacing-md); }
+  .report-body pre { font-family: var(--typography-fontFamily-code); font-size: var(--fs-small); background: var(--color-highlight); border: 1px solid var(--color-border); border-radius: var(--radius-card); padding: var(--spacing-card); overflow-x: auto; margin-bottom: var(--spacing-paragraph); line-height: var(--typography-lineHeight-body); }
+  .report-body pre code { background: none; padding: 0; }
+
+  /* Tables */
+  table.data-table { width: 100%; border-collapse: collapse; margin-bottom: var(--spacing-paragraph); font-size: var(--fs-small); }
+  table.data-table th, table.data-table td { padding: var(--spacing-row) var(--spacing-cell); border: 1px solid var(--color-border); vertical-align: top; text-align: left; }
+  table.data-table th { background: var(--color-highlight); font-weight: var(--fw-bold); color: var(--color-heading); font-family: var(--ff-heading); }
+  table.data-table tbody tr:nth-child(even) td { background: var(--color-surface); }
+
+  .data-emphasis { color: var(--color-emphasis); font-weight: var(--fw-bold); }
+  .callout { border-left: 4px solid var(--color-primary); background: var(--color-surface); padding: var(--spacing-card) var(--spacing-unit); border-radius: 0 var(--radius-card) var(--radius-card) 0; margin-bottom: var(--spacing-paragraph); }
+  .callout .callout-title { font-weight: var(--fw-bold); color: var(--color-heading); font-family: var(--ff-heading); margin-bottom: var(--spacing-md); }
+
+  .flow { font-family: var(--typography-fontFamily-code); font-size: var(--fs-small); background: var(--color-surface); border: 1px dashed var(--color-border); border-radius: var(--radius-card); padding: var(--spacing-card); margin-bottom: var(--spacing-paragraph); line-height: var(--typography-lineHeight-body); }
+  .flow b { color: var(--color-primary); }
+
+  /* Appendix */
+  .appendix { padding: var(--spacing-section) var(--margin-page); border-top: 1px solid var(--color-border); }
+  .appendix h2 { font-size: var(--fs-h2); font-family: var(--ff-heading); color: var(--color-heading); margin-bottom: var(--spacing-paragraph); border-left: none; padding-left: 0; }
+  .doc-footer { padding: var(--spacing-block) var(--margin-page); font-size: var(--typography-fontSize-tiny); color: var(--color-muted); }
+  </style>
+</head>
+<body>
+  <section role="cover" class="report-cover">
+    <div class="cover-logo-placeholder"></div>
+    <p class="cover-category">产品需求文档 · PRD</p>
+    <h1 class="cover-title">LEXY莱克 微信小程序<br>框架结构拆解与复刻 PRD</h1>
+    <p class="cover-subtitle">基于真实安装包逆向的一手框架分析（V1.0）</p>
+    <div class="cover-meta">
+      <p>莱克电气 · 品牌部 数字营销 ｜ 2026-10-07 ｜ V1.0</p>
+    </div>
+  </section>
+
+  <section role="body" class="report-body" data-page-restart="1">
+    <nav class="doc-toc" aria-label="文档目录">
+      <p class="toc-title">目录</p>
+      <ol class="toc-list">
+        <li>一、文档说明与数据来源</li>
+        <li>二、产品概述</li>
+        <li>三、技术架构拆解</li>
+        <li>四、信息架构（页面地图）</li>
+        <li>五、核心业务流程</li>
+        <li>六、功能需求清单（复刻范围）</li>
+        <li>七、非功能需求</li>
+        <li>八、复刻实施路径</li>
+        <li>九、待补齐信息清单</li>
+        <li>十、风险与提示</li>
+      </ol>
+    </nav>
+
+    <div class="executive-summary">
+      <div class="summary-header">
+        <h2>执行摘要</h2>
+        <span class="summary-badge">Executive Summary</span>
+      </div>
+      <div class="summary-highlights">
+        <div data-component="data-card" data-title="页面总数">
+          <span class="card-value">452</span><span class="card-unit">个页面</span>
+          <span class="card-label">82 个分包</span>
+        </div>
+        <div data-component="data-card" data-title="解出源文件">
+          <span class="card-value">3,899</span><span class="card-unit">个文件</span>
+          <span class="card-label">22 个 wxapkg / 约 17MB</span>
+        </div>
+        <div data-component="data-card" data-title="框架归属">
+          <span class="card-value">有赞</span><span class="card-unit">微商城 SaaS</span>
+          <span class="card-label">kdtId 44375018</span>
+        </div>
+        <div data-component="data-card" data-title="插件">
+          <span class="card-value">2</span><span class="card-unit">个插件</span>
+          <span class="card-label">视频号直播 + 有赞视频</span>
+        </div>
+      </div>
+      <div class="summary-body">
+        <p>本 PRD 的全部框架结论来自对<strong>真实小程序安装包的一手逆向拆解</strong>。核心结论：<strong>「LEXY莱克」不是自研代码，而是有赞微商城（Youzan WSC）SaaS 模板的实例化</strong>——莱克做的是「开通有赞店铺 + 后台配置 + 插件接入」，不是写代码。因此复刻的正确路径是 <span class="data-emphasis">选对平台 + 配齐配置</span>，而不是把 452 个页面重写一遍。</p>
+        <p>推荐路径：<strong>有赞微商城·连锁版</strong>（与现版同一框架，2–4 周上线）；若目标是快速承接 ADQ 广告与直播间流量，可先用<strong>微信小店</strong>（1–2 周）过渡。</p>
+      </div>
+    </div>
+
+    <main>
+      <h2>一、文档说明与数据来源</h2>
+      <p>本章界定本 PRD 的证据边界：哪些结论可以直接采信，哪些必须等真机核对后再定稿。</p>
+      <table class="data-table">
+        <thead><tr><th style="width:22%">项</th><th>内容</th></tr></thead>
+        <tbody>
+        <tr><td>分析样本</td><td>PC 微信 4.0 本地小程序包缓存（22 个 .wxapkg，解出 3,899 个源文件，约 17MB）</td></tr>
+        <tr><td>确认方式</td><td>包内 AppID 对应小程序图标（256×256）与 LEXY莱克 红黑标准 Logo 完全一致；缓存更新时间与分享链接被点击时间（2026-10-07 09:06）吻合</td></tr>
+        <tr><td>排除项</td><td>同机另有两个莱克系小程序已识别并排除：<strong>碧云泉 bewinch</strong>（wx5b3992fb2164b748）、<strong>小莱到家·售后服务</strong>（wxb183e95bd61b62cb）</td></tr>
+        <tr><td>诚实边界</td><td>编译包内<strong>不含</strong>品牌文案、首页栏目、商品与 banner 数据——这些全部由服务端实时下发。本 PRD 给出的是<strong>框架骨架 + 能力清单 + 复刻路径</strong>；视觉与栏目层需真机逐页截图核对（见第九章）</td></tr>
+        </tbody>
+      </table>
+
+      <h2>二、产品概述</h2>
+      <p>先给出身份与定位的硬事实，复刻决策全部建立在这些字段之上。</p>
+      <table class="data-table">
+        <thead><tr><th style="width:28%">项</th><th>内容</th></tr></thead>
+        <tbody>
+        <tr><td>小程序名称</td><td>LEXY莱克</td></tr>
+        <tr><td>AppID</td><td><code>wx6bc687ff89875e20</code></td></tr>
+        <tr><td>产品定位</td><td>莱克品牌官方商城小程序（电商交易 + 会员运营 + 直播带货 + 门店连锁）</td></tr>
+        <tr><td>包版本</td><td>目录版本 61；<code>userVersion 3.179.7.101</code>；运行环境 <code>env: prd</code></td></tr>
+        <tr><td>技术形态</td><td><strong>有赞微商城（Youzan WSC）SaaS 模板实例化</strong>，非自研代码</td></tr>
+        <tr><td>有赞店铺 ID（kdtId）</td><td><code>44375018</code></td></tr>
+        <tr><td>店铺 H5 域名</td><td><code>https://shop255245.youzan.com/v2</code></td></tr>
+        <tr><td>经营模式</td><td><code>isChainStore / chainStore = true</code>（连锁多门店），<code>shopAppType: 3</code>，<code>themeType: 3</code></td></tr>
+        </tbody>
+      </table>
+      <div class="callout">
+        <p class="callout-title">最重要的一个结论</p>
+        <p>这个小程序的代码不是莱克写的，也不是外包写的——它是有赞微商城的标准小程序框架，莱克做的是「开通有赞店铺 + 后台配置（商品/栏目/装修/营销/会员/门店）+ 插件接入」。因此「复刻」的本质不是「把 452 个页面重写一遍」，而是<strong>选对平台、配齐配置</strong>。</p>
+      </div>
+
+      <h2>三、技术架构拆解</h2>
+      <p>架构分三层：客户端包体（主包 + 分包 + 插件）、全局配置、服务端。理解这三层才能判断「复刻」到底复刻什么。</p>
+      <h3>3.1 整体架构</h3>
+      <p>前端只承担「容器 + 组件渲染」，所有业务数据由有赞服务端按店铺 ID 下发：</p>
+      <pre>┌─────────────────────────────────────────────┐
+│  微信客户端（小程序运行时）                    │
+│  ┌───────────────────────────────────────┐  │
+│  │ LEXY莱克 小程序                        │  │
+│  │  主包 __APP__（461 文件）              │  │
+│  │   ├─ 自定义 tabBar（首页/购物车/我的）  │  │
+│  │   ├─ 首页装修容器 dashboard            │  │
+│  │   └─ 公共容器（webview/空白页/降级页）  │  │
+│  │  82 个分包（packages/*，452 页面）     │  │
+│  │  插件① 视频号直播 live-player-plugin   │  │
+│  │  插件② 有赞视频 yzVideoPlugin          │  │
+│  └───────────────────────────────────────┘  │
+└──────────────┬──────────────────────────────┘
+               │ HTTPS（请求头 Extra-Data: is_weapp / sid / version）
+               ▼
+┌─────────────────────────────────────────────┐
+│  有赞 WSC 服务端（按 kdtId=44375018 返回）    │
+│  h5.youzan.com ／ trade.youzan.com          │
+│  cashier.youzan.com ／ uic.youzan.com       │
+│  passport.youzan.com ／ store.youzan.com    │
+│  静态资源 CDN：img01.yzcdn.cn / b.yzcdn.cn  │
+└─────────────────────────────────────────────┘</pre>
+
+      <h3>3.2 全局配置</h3>
+      <p>以下为 app.json 等价配置的真实取值，是复刻时必须对齐的「骨架参数」。</p>
+      <table class="data-table">
+        <thead><tr><th style="width:24%">配置项</th><th style="width:38%">实际值</th><th>说明</th></tr></thead>
+        <tbody>
+        <tr><td>entryPagePath</td><td><code>pages/home/dashboard/index</code></td><td>首页装修容器即入口</td></tr>
+        <tr><td>tabBar</td><td><code>custom: true</code>，<code>selectedColor #FF4444</code>，<code>backgroundColor #FCFCFC</code></td><td><strong>自定义 tabBar</strong>（前端自绘，便于装修换肤）</td></tr>
+        <tr><td>tabBar.list</td><td>首页 ／ 购物车 ／ 我的</td><td>仅 3 个 tab</td></tr>
+        <tr><td>window</td><td><code>navigationBarBackgroundColor #ffffff</code>、<code>onReachBottomDistance 400</code></td><td>首页 <code>navigationStyle: custom</code> + 下拉刷新</td></tr>
+        <tr><td>permission</td><td><code>scope.userLocation</code></td><td>「获取当前位置相对于门店的距离」，用于附近门店</td></tr>
+        <tr><td>networkTimeout</td><td>request 10000ms</td><td>—</td></tr>
+        <tr><td>preloadRule</td><td>retail-shelf、shop-select、async-retail、usercenter</td><td>预下载门店/会员分包，提升首开速度</td></tr>
+        <tr><td>隐私</td><td>含 <code>requiredPrivateInfos</code> 与 <code>__usePrivacyCheck__</code></td><td>需配隐私保护指引与接口声明</td></tr>
+        </tbody>
+      </table>
+
+      <h3>3.3 插件接入</h3>
+      <p>插件是这套框架里唯一「外挂」的能力，也是品牌部最关心的直播带货入口。</p>
+      <table class="data-table">
+        <thead><tr><th style="width:26%">插件</th><th style="width:26%">AppID</th><th style="width:12%">版本</th><th>作用</th></tr></thead>
+        <tbody>
+        <tr><td>live-player-plugin</td><td><code>wx2b03c6e691cd7370</code></td><td>1.3.2</td><td><strong>微信视频号直播</strong>（含秒杀组件 <code>export: seckill.js</code>，直播间挂商品/秒杀）</td></tr>
+        <tr><td>yzVideoPlugin</td><td><code>wx9e5eba73bf23a27a</code></td><td>1.4.3</td><td>有赞视频号内容组件（视频号带货/内容嵌入）</td></tr>
+        </tbody>
+      </table>
+      <p>与品牌部现状直接相关：ADQ 投放主推「微信小店 + 视频号直播间」，本小程序正是通过 live-player-plugin 打通直播间挂载与秒杀。</p>
+
+      <h2>四、信息架构（页面地图）</h2>
+      <p>总计 <span class="data-emphasis">452 个页面、82 个分包</span>。下表按业务域归类，是复刻时的功能盘点底稿。</p>
+      <table class="data-table">
+        <thead><tr><th style="width:20%">业务域</th><th style="width:34%">分包（root）</th><th>核心能力</th></tr></thead>
+        <tbody>
+        <tr><td><strong>首页与店铺装修</strong>（约15）</td><td>home、showcase-template、ext-marketing-page、feature-video</td><td>首页装修容器；<code>home/tab/one|two|three</code> 三套可切换首页模板；营销落地页容器</td></tr>
+        <tr><td><strong>商品</strong>（约60）</td><td>goods、goods-list、goods-core/main/minor、independent/goods、scan-code-buy、retail-shelf</td><td>商品详情/列表/搜索/分组、秒杀详情、扫码购、门店货架</td></tr>
+        <tr><td><strong>交易与订单</strong>（约70）</td><td>trade、trade-buy、trade-buy-subpage、trade-pay、trade-cart、pay、order、order-native、gift</td><td>购物车、确认订单、地址/联系人/身份证、发票、自提点、收银台（unicashier）、订单列表/详情/搜索、退款与批量退款、订单保险</td></tr>
+        <tr><td><strong>营销中心 ump</strong>（约35）</td><td>ump、collage、groupbuying、group-center</td><td>秒杀、拼团/参团、砍价、优惠券领取/礼包/拆券、积分商城、签到、盲盒、抽奖、赠品送礼、组合装、加价购、满减、第二件半价、定期购、N元试用、酒水品鉴、预约</td></tr>
+        <tr><td><strong>会员与用户资产</strong>（约55）</td><td>membercard、card、pre-card、benefit-card、levelcenter、member-benefit、member-code、point、pointstore、user、usercenter</td><td>会员卡（含付费会员 plus）、等级中心、储值卡、权益卡、积分与积分商城、优惠券、现金返利、任务中心、会员码</td></tr>
+        <tr><td><strong>分销与导购</strong>（约35）</td><td>salesman、channel、guide、business-card</td><td>分销员中心/邀请/排行/任务/素材库、渠道代理商、导购推广、朋友圈素材、电子名片</td></tr>
+        <tr><td><strong>内容与互动</strong>（约40）</td><td>short-video、wxvideo、weapp-live、paidcontent、edu、new-punch、shop/shopnote、evaluation</td><td>短视频、视频号带货（含 CPS）、直播间、付费内容/课程、打卡、店铺笔记种草、商品评价</td></tr>
+        <tr><td><strong>零售与门店</strong>（约60）</td><td>retail/*（11个）、retailb、shop（含 chain-store、multi-store）、shop-select、hotel、takeaway-search</td><td>连锁门店、门店选择、多门店、到店自提、核销、收银/扫一扫、门店订单池、门店 IM</td></tr>
+        <tr><td><strong>消息与客服</strong>（约8）</td><td>message、zan-web-view、tech-support</td><td>客服会话（微信客服 wxkf）、订阅消息、满意度评价</td></tr>
+        <tr><td><strong>账号</strong>（约10）</td><td>account、user</td><td>登录、账号绑定/换绑、设置</td></tr>
+        <tr><td><strong>通用与异步容器</strong>（约20）</td><td>common、assets、statcenter、third-yun、weass、async-*（8个）</td><td>错误页/停服页/空白页、异步分包占位（按需加载）、第三方云服务桥接</td></tr>
+        </tbody>
+      </table>
+      <div class="callout">
+        <p class="callout-title">为什么要拆这么多分包</p>
+        <p><code>async-core / async-main / async-minor / async-usecenter / async-feature-ext / async-retail / async-tee / async-video</code> 与 <code>goods-core / goods-main / goods-minor</code> 这类命名是<strong>异步分包</strong>机制——把大模块拆成按需下载的子包，首屏只加载主包（461 文件），这是它能保持秒开的关键手段。</p>
+      </div>
+
+      <h2>五、核心业务流程</h2>
+      <p>以下五条链路覆盖了这套小程序的全部主业务，箭头即页面跳转顺序。</p>
+      <h3>5.1 主购物链路（P0）</h3>
+      <p>从首页到支付的标准电商闭环：</p>
+      <div class="flow">首页装修页 <b>dashboard</b> → 商品列表/搜索/分组 <b>goods-list / shop/goods</b> → 商品详情 <b>goods/detail</b>（含秒杀/拼团/砍价活动态）<br>→ 加入购物车 <b>goods/cart</b> → 确认订单 <b>trade-buy/order/buy</b>（地址、优惠券、积分、发票、自提）<br>→ 收银台 <b>pay/unicashier</b>（微信支付）→ 订单结果 <b>trade/order/result</b> → 订单列表/详情/退款 <b>trade/order/list、refund/list</b></div>
+
+      <h3>5.2 直播带货链路（P0 · 品牌部重点）</h3>
+      <p>这是与 ADQ 投放、直播间转化直接挂钩的一条链：</p>
+      <div class="flow">视频号直播插件 <b>live-player-plugin</b> 进入直播间 → 直播间挂载商品（goods/detail 半屏）<br>→ 秒杀组件（<b>export seckill.js</b>）整点/限量抢购 → 下单支付同 5.1<br>→ 观看-下单归因数据回流有赞 <b>statcenter</b></div>
+
+      <h3>5.3 会员运营链路（P1）</h3>
+      <p>复购与 LTV 的核心承载：</p>
+      <div class="flow">注册/登录 <b>account/login</b>（微信授权）→ 领取/购买会员卡 <b>membercard、levelcenter/plus</b>（付费会员）<br>→ 消费得积分 <b>point</b> → 积分商城兑换 <b>pointstore</b> → 领券用券 <b>user/coupon、ump/coupon-pack</b><br>→ 储值充值 <b>pre-card</b> → 权益卡 <b>benefit-card</b> → 任务中心 <b>user/task-center</b>、签到打卡 <b>ump/sign-in、new-punch</b></div>
+
+      <h3>5.4 门店与连锁链路（P1）</h3>
+      <p>莱克线下体系接入小程序的通道：</p>
+      <div class="flow">定位授权 <b>scope.userLocation</b> → 附近门店/门店列表 <b>shop/chain-store、multi-store</b><br>→ 门店选择 <b>shop-select</b> → 到店自提地址 <b>self-fetch-address</b> ／ 门店核销 <b>trade/cert/verify-ticket</b><br>→ 门店导购接待 <b>retail/chat、guide</b></div>
+
+      <h3>5.5 分销裂变链路（P2 · 可选开关）</h3>
+      <p>原框架内置但莱克未必启用，需先确认再决定是否复刻：</p>
+      <div class="flow">分销员招募 <b>salesman/salesman-center</b> → 生成推广素材/朋友圈素材 <b>zone/material、guide/pages/moments-material</b><br>→ 分享商品/直播间 <b>order/share、wxvideo/cps</b> → 成交佣金 <b>salesman/report、rank、task-award</b> → 提现</div>
+      <p>以上五条链路共同构成复刻的功能边界：P0 链路决定「能不能卖」，P1 链路决定「能不能留住人」，P2 链路属于增量选项。</p>
+
+      <h2>六、功能需求清单（复刻范围）</h2>
+      <p>优先级定义：<strong>P0 = 首期必须</strong>；<strong>P1 = 二期</strong>；<strong>P2 = 按业务需要选配</strong>（原小程序包含，但莱克当前未必启用）。</p>
+      <table class="data-table">
+        <thead><tr><th style="width:10%">优先级</th><th style="width:22%">模块</th><th>需求要点</th></tr></thead>
+        <tbody>
+        <tr><td><strong>P0</strong></td><td>自定义 tabBar</td><td>3 个 tab（首页/购物车/我的），选中色 <code>#FF4444</code>，支持装修换肤</td></tr>
+        <tr><td><strong>P0</strong></td><td>首页装修容器</td><td>容器化渲染服务端下发的楼层（轮播/金刚区/商品/直播卡片），首页下拉刷新、自定义导航</td></tr>
+        <tr><td><strong>P0</strong></td><td>商品模块</td><td>详情（图/规格/SKU/库存）、列表、搜索、分组、商品分类</td></tr>
+        <tr><td><strong>P0</strong></td><td>购物车与订单</td><td>加购/改量/勾选、确认订单、地址管理、微信支付、订单列表/详情</td></tr>
+        <tr><td><strong>P0</strong></td><td>视频号直播插件</td><td>直播间进入、商品挂载、秒杀组件</td></tr>
+        <tr><td>P1</td><td>优惠券</td><td>领券中心、券包、下单抵扣</td></tr>
+        <tr><td>P1</td><td>会员体系</td><td>会员卡、等级、积分、会员码、任务中心</td></tr>
+        <tr><td>P1</td><td>门店连锁</td><td>门店列表与定位、门店选择、到店自提、核销</td></tr>
+        <tr><td>P1</td><td>客服</td><td>微信客服（wxkf）会话入口、订阅消息</td></tr>
+        <tr><td>P1</td><td>商品评价</td><td>评价列表/详情/发布</td></tr>
+        <tr><td>P2</td><td>营销玩法全家桶</td><td>秒杀/拼团/砍价/盲盒/抽奖/满减/第二件半价/定期购/组合装/加价购</td></tr>
+        <tr><td>P2</td><td>储值与礼品卡</td><td>储值卡充值、权益卡、送礼</td></tr>
+        <tr><td>P2</td><td>分销与导购</td><td>分销员中心、素材库、佣金、渠道</td></tr>
+        <tr><td>P2</td><td>内容种草</td><td>短视频、店铺笔记、付费内容/课程、打卡</td></tr>
+        <tr><td>P2</td><td>积分商城</td><td>积分兑换、兑换记录</td></tr>
+        </tbody>
+      </table>
+
+      <h2>七、非功能需求</h2>
+      <p>这部分决定复刻出来的小程序「快不快、稳不稳、能不能过审」，往往比功能清单更容易被忽略。</p>
+      <table class="data-table">
+        <thead><tr><th style="width:16%">类别</th><th>要求</th></tr></thead>
+        <tbody>
+        <tr><td><strong>性能</strong></td><td>采用异步分包（async-* / goods-core 等）把首屏主包控制在 2MB 内；<code>preloadRule</code> 预下载门店与会员分包；<code>onReachBottomDistance 400</code> 提前触底加载</td></tr>
+        <tr><td><strong>可用性</strong></td><td>统一错误页/停服页/空白页容器（packages/common），弱网降级到 H5（<code>wxh5-downgrade</code> 收银台 H5 降级链路）</td></tr>
+        <tr><td><strong>兼容</strong></td><td>渲染层 <code>renderer: webview</code>（未启用 skyline），<code>componentFramework: exparser</code>，需兼容低版本基础库</td></tr>
+        <tr><td><strong>安全合规</strong></td><td><code>requiredPrivateInfos</code> + <code>__usePrivacyCheck__</code>：需在小程序后台配置隐私保护指引；位置权限需场景说明；支付走微信支付商户号</td></tr>
+        <tr><td><strong>数据合规</strong></td><td>电商类目需营业执照 + ICP 备案 +（如涉食品/医疗器械）相应资质；用户信息收集需明示</td></tr>
+        <tr><td><strong>可运营</strong></td><td>所有楼层/文案/活动均需后台可视化配置，<strong>禁止写死在前端</strong></td></tr>
+        </tbody>
+      </table>
+
+      <h2>八、复刻实施路径（决策重点）</h2>
+      <p>四条路径的成本与能力差异极大，这是本 PRD 最需要品牌部拍板的一章。</p>
+      <table class="data-table">
+        <thead><tr><th style="width:10%">路径</th><th style="width:26%">说明</th><th style="width:12%">成本</th><th style="width:16%">与原版一致度</th><th style="width:12%">周期</th><th>建议</th></tr></thead>
+        <tbody>
+        <tr><td><strong>A. 微信小店（官方）</strong></td><td>腾讯官方免费小店，原生打通视频号/ADQ</td><td>低</td><td>中（功能子集，无积分/储值/分销）</td><td>1–2 周</td><td>适合快速承接广告流量</td></tr>
+        <tr><td><strong>B. 有赞 SaaS（原版同源）</strong></td><td>开通有赞微商城 + 连锁版，配置即得</td><td>中（年费 + 交易费率）</td><td><strong>高（与现版同一框架）</strong></td><td>2–4 周（主要是配置与素材）</td><td><strong>最推荐</strong>，性价比最高</td></tr>
+        <tr><td><strong>C. 自研小程序</strong></td><td>参照本 PRD 自建前后端</td><td>高（研发 + 长期维护）</td><td>取决于投入</td><td>3–6 个月起</td><td>仅在需深度定制/数据私有化时选</td></tr>
+        <tr><td><strong>D. 混合</strong></td><td>微信小店承接广告 + 有赞承接会员运营</td><td>中</td><td>—</td><td>并行</td><td>可与 A/B 组合过渡</td></tr>
+        </tbody>
+      </table>
+      <div class="callout">
+        <p class="callout-title">推荐结论</p>
+        <p>若目标是「复刻出一个能力对等的 LEXY莱克」，选 <strong>B（有赞微商城·连锁版）</strong>；若目标是「快速有一个能投 ADQ、能挂直播间的店」，选 <strong>A（微信小店）</strong>，后续再平滑升级到 B。</p>
+      </div>
+
+      <h3>分阶段交付计划（以路径 B 为例）</h3>
+      <p>按 8 周节奏推进，每阶段都有可验收的交付物：</p>
+      <table class="data-table">
+        <thead><tr><th style="width:16%">阶段</th><th style="width:16%">周期</th><th>交付</th></tr></thead>
+        <tbody>
+        <tr><td>阶段一</td><td>第 1–2 周</td><td>有赞店铺开通、类目资质与支付商户号、品牌主题（<code>#FF4444</code> 主色）、自定义 tabBar</td></tr>
+        <tr><td>阶段二</td><td>第 3–4 周</td><td>首页装修（栏目按真机截图 1:1 复刻）、商品与分类录入、购物车/订单/支付联调</td></tr>
+        <tr><td>阶段三</td><td>第 5–6 周</td><td>视频号直播插件接入 + 秒杀配置、优惠券、客服</td></tr>
+        <tr><td>阶段四</td><td>第 7–8 周</td><td>会员/积分/门店连锁、隐私合规自查、上线</td></tr>
+        </tbody>
+      </table>
+
+      <h2>九、待补齐信息清单（需真机截图核对）</h2>
+      <p>包内无品牌数据，以下内容需在手机上逐页截图后补入本 PRD 的「视觉与栏目规范」章节：</p>
+      <ol>
+        <li>首页楼层顺序与每层样式（轮播图、金刚区图标、商品楼层、直播入口）</li>
+        <li>「我的」页功能入口清单与排序</li>
+        <li>已启用的营销玩法（原框架含 35+ 种，实际开启几种需确认）</li>
+        <li>会员卡等级名称、权益文案</li>
+        <li>门店数量、自提/配送范围</li>
+        <li>是否启用分销员/导购功能</li>
+        <li>商品详情页的楼层排布与详情模板</li>
+      </ol>
+
+      <h2>十、风险与提示</h2>
+      <p>复刻的主要风险不在技术，而在「平台绑定」与「功能过剩」两条。</p>
+      <table class="data-table">
+        <thead><tr><th style="width:18%">风险</th><th style="width:46%">说明</th><th>应对</th></tr></thead>
+        <tbody>
+        <tr><td>平台绑定</td><td>选有赞即锁定其生态与费率</td><td>合同期与数据导出条款写清楚</td></tr>
+        <tr><td>功能过剩</td><td>原框架 452 页中大量功能莱克可能从未启用</td><td>复刻时按第六章 P0/P1 收敛，不要照单全收</td></tr>
+        <tr><td>素材与数据不可逆向</td><td>包内无文案/图片/商品数据</td><td>必须第九章真机截图 + 有赞后台导出</td></tr>
+        <tr><td>合规</td><td>位置权限、隐私协议、类目资质</td><td>上线前走一遍微信后台合规自查</td></tr>
+        <tr><td>多小程序协同</td><td>莱克系还有「碧云泉」「小莱到家」两个独立小程序</td><td>明确三者边界：商城 / 品牌 / 售后，避免功能重复建设</td></tr>
+        </tbody>
+      </table>
+    </main>
+
+    <div class="appendix">
+      <h2>附录：分析证据索引</h2>
+      <p>以下为可复核的一手证据位置，便于后续追溯与验伪。</p>
+      <table class="data-table">
+        <thead><tr><th style="width:26%">证据</th><th>位置 / 内容</th></tr></thead>
+        <tbody>
+        <tr><td>小程序包缓存</td><td><code>...\xwechat\radium\users\...\applet\packages\wx6bc687ff89875e20\61\</code>（22 个 .wxapkg）</td></tr>
+        <tr><td>图标确认</td><td><code>applet\icon\wx6bc687ff89875e20.ico</code>（256×256，LEXY莱克 Logo）</td></tr>
+        <tr><td>框架关键词命中</td><td><code>youzan</code> 553 次、<code>kdt</code> 5182 次、<code>有赞</code> 58 次</td></tr>
+        <tr><td>ext 配置原文</td><td><code>kdtId 44375018 / isChainStore true / env prd / userVersion 3.179.7.101 / shopAppType 3 / themeType 3</code></td></tr>
+        <tr><td>店铺 H5</td><td><code>https://shop255245.youzan.com/v2</code></td></tr>
+        <tr><td>已排除的同系小程序</td><td>碧云泉 bewinch（wx5b3992fb2164b748）、小莱到家·售后（wxb183e95bd61b62cb）</td></tr>
+        </tbody>
+      </table>
+      <p style="margin-top: var(--spacing-unit)">本文档框架数据来自真实包体逆向；配置与视觉层待真机核对后迭代 V1.1。</p>
+    </div>
+  </section>
+  <div class="doc-footer">LEXY莱克 微信小程序 框架结构拆解与复刻 PRD · V1.0 · 2026-10-07</div>
+</body>
+</html>
